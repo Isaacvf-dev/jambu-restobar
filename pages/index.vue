@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Teste</p>
+    This is our landing page
   </div>
 </template>
 
