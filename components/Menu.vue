@@ -18,13 +18,12 @@
                
       </div>
       <div class=" max-w-md bg-cyan-600 flex">
-        <div class="bg-slate-950">
-          <img src="assets/menu-item-01.png" alt="Descrição da imagem" class="">
-
-        </div>
         <div>
-          <h3 class="text-xl">Bolinho de Costela</h3>
-          <p class="text-sm">São uma verdadeira tentação gastronômica para os amantes de sabores intensos e texturas irresistíveis.</p>
+          <img src="assets/menu-item-01.png" alt="Descrição da imagem" class="">
+        </div>
+        <div class="bg-slate-900">
+          <h3 class="text-xl text-amber-600">Bolinho de Costela</h3>
+          <p class="text-sm text-white">São uma verdadeira tentação gastronômica para os amantes de sabores intensos e texturas irresistíveis.</p>
         </div>
        
       </div>
