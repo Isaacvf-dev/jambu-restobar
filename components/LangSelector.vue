@@ -42,8 +42,6 @@ interface LanguageOption {
 }
 const { locale } = useI18n();
 
-console.log('locale', locale)
-
 const lang = ref<string>( nuxtStorage.localStorage.getData('jambu-bar-lang') || "pt");
 
 const languageOptions: LanguageOption[] = [

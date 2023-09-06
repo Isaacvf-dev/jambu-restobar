@@ -1,5 +1,8 @@
 <template>
   <Header />
+  <Home />
+  <About />
+  <Reservation />
   <Menu />
 </template>
 
@@ -16,5 +19,16 @@ export default {};
 
 html {
   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #151515;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
 }
 </style>
