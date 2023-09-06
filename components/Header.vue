@@ -22,7 +22,7 @@
             <a class="uppercase" href="#menu_section">{{ $t("menu") }}</a>
           </li>
           <li class="mx-6 my-6 md:my-0 border-amber-600 hover:border-b-2">
-            <a class="uppercase" href="#gallery_section">{{ $t("gallery") }}</a>
+            <a class="uppercase" href="#our_drinks_section">{{ $t("gallery") }}</a>
           </li>
           <li class="mx-6 my-6 md:my-0 border-amber-600 hover:border-b-2">
             <a class="uppercase" href="#info_section">{{

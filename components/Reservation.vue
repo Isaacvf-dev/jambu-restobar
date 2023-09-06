@@ -8,7 +8,7 @@
       class="flex items-center justify-between h-full overflow-hidden p-10"
     >
       <div class="text-white text-left font-poppins z-10 max-w-3xl ml-[auto]">
-        <h1 class="text-5xl mb-2 font-semibold">
+        <h1 class="text-amber-600 text-5xl mb-2 font-semibold">
           Comemore e divirta-se em <br />um dos melhores restaurantes
         </h1>
         <p class="text-lg">Faça sua reserva e aproveite nossas promoções</p>
