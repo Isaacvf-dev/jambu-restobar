@@ -4,6 +4,10 @@
   <About />
   <Reservation />
   <Menu />
+  <OurDrinks />
+  <OurPlace />
+  <Place />
+
 </template>
 
 <script>

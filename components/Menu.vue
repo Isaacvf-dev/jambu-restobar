@@ -10,9 +10,7 @@
             <img src="assets/menu-image-03.png" class="object-bottom object-cover h-28 sm:h-2/4 pt-1" alt="Prato do menu" >
           </div>          
           <img src="assets/menu-image-04.png" class="h-56 sm:h-full w-1/2 object-center object-cover" alt="Prato do menu">         
-
         </div>
-               
       </div>
       <div class="">
         <div class="max-w-md w-4/5 sm:w-fit m-auto md:mr-6 h-full flex flex-col pb-2 pt-8 sm:pt-0 ">          
