@@ -48,7 +48,7 @@ const { locale } = useI18n();
 const lang = ref<string>( nuxtStorage.localStorage.getData('jambu-bar-lang') || "pt");
 
 const languageOptions: LanguageOption[] = [
-  { value: "pt", name: "Português", image: "assets/brazil.png" },
+  { value: "pt", name: "Português", image: "assets/portugal.png" },
   { value: "en", name: "English", image: "assets/usa.png" },
   { value: "es", name: "Español", image: "assets/spain.png" },
 ];

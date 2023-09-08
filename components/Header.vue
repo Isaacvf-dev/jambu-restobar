@@ -33,11 +33,14 @@
             @click="delaydMobileMenuClick">{{ $t(item.name) }}</a>
           </li>
         </ul>
-        <a
-        v-if="isMenuVisible"
-        href="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
-        class="uppercase transition duration-100 delay-75 mx-4 md:mx-3 lg:mx-6 md:my-0 px-5 lg:px-8 py-1 lg:py-2 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm lg:text-xl"
-        >{{ $t("reservation") }}</a>
+        <div :class="{ 'mb-6': isMenuVisible }" class="md:hidden">
+          <a
+          v-if="isMenuVisible"
+          href="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
+          class="uppercase transition duration-100 delay-75 mx-4 px-5 py-1 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm"
+          >{{ $t("reservation") }}</a>
+
+        </div>
       </div>
       <div class="hidden md:flex items-center">
         <div class="mr-2 lg:mr-4"></div>
@@ -70,15 +73,15 @@ const menuItems: menuItems[] = [
   { name: "information", link: "#info_section" },
 ]
 
-let isMenuVisible = ref(false)
+const isMenuVisible = ref(false)
 
-let showMobileMenu = () => {
+const showMobileMenu = () => {
   isMenuVisible.value = !isMenuVisible.value
 }
 
 const clickDelay = 600
 
-let delaydMobileMenuClick = () => {
+const delaydMobileMenuClick = () => {
   setTimeout( () => {
     showMobileMenu()
   }, clickDelay )
