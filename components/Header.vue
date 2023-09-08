@@ -1,6 +1,6 @@
 <template>
   <header class="w-full bg-slate-900 fixed z-20 text-white">    
-    <nav class="max-w-7xl mx-auto p-4 md:flex md:justify-between md:items-center font-semibold">    
+    <nav class="max-w-7xl mx-auto px-4 py-2 md:flex md:justify-between md:items-center font-semibold">    
       <div class="flex justify-between items-center">
         <a
           class="flex items-center justify-center flex-col font-poppins my-sm"
@@ -24,18 +24,19 @@
 
         </div>  
       </div>
-      <div class="bg-slate-900 md:flex md:items-center z-[-1] md:z-auto md:static absolute opacity-90 w-full left-0 md:w-auto pb-6 md:py-0 md:pl-0 "
-      :class="{ hidden: !isMenuVisible, block: isMenuVisible }">
-        <ul>
-          <li v-for="(item, index) in menuItems" :key="index" class="mx-6 md:mx-3 lg:mx-6 my-6 md:my-0">
+      <div class="bg-slate-900 absolute md:relative opacity-90 w-full md:w-auto left-0">
+        <ul class="bg-slate-900 md:flex md:items-center z-[-1] md:z-auto md:static  md:w-auto pb-6 md:p-auto"
+        :class="{ hidden: !isMenuVisible, block: isMenuVisible }">
+          <li v-for="(item, index) in menuItems" :key="index" class="mx-6 md:mx-3 lg:mx-6 pt-6 md:my-0">
             <a class="uppercase relative text-sm lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-amber-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" 
             :href="item.link" 
             @click="delaydMobileMenuClick">{{ $t(item.name) }}</a>
           </li>
         </ul>
         <a
+        v-if="isMenuVisible"
         href="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
-        class="uppercase transition duration-100 delay-75 mx-4 md:mx-3 lg:mx-6 my-8 md:my-0 px-5 lg:px-8 py-1 lg:py-2 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm lg:text-xl"
+        class="uppercase transition duration-100 delay-75 mx-4 md:mx-3 lg:mx-6 md:my-0 px-5 lg:px-8 py-1 lg:py-2 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm lg:text-xl"
         >{{ $t("reservation") }}</a>
       </div>
       <div class="hidden md:flex items-center">
