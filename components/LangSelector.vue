@@ -1,29 +1,32 @@
 <template>
   <div class="relative mr-8 ml-2">
-    <div class="flex items-center cursor-pointer" @mouseenter="toggleDropdown">
+    <div 
+    class="flex items-center cursor-pointer" 
+    @mouseenter="toggleDropdown"  
+    @mouseleave="hideLangMenu"
+    >
       <img
         :src="selectedOption?.image"
         class="h-6 w-6 rounded-full"
         alt="Language Icon"
       />
-    </div>
-    <div
-      v-if="isDropdownVisible"
-      @mouseleave="hideLangMenu"
-      class="left-1/2 transform -translate-x-1/2 absolute mt-2 border border-gray-700 rounded-lg shadow-lg bg-slate-900"
-    >
       <div
-        v-for="option in languageOptions"
-        :key="option.value"
-        class="flex justify-start items-center py-3 pl-4 pr-10 cursor-pointer hover:text-white duration-500"
-        @click="selectOption(option)"
+        v-if="isDropdownVisible"
+        class="top-6 -translate-x-1/2 absolute border border-gray-700 rounded-lg shadow-lg bg-slate-900"
       >
-        <img
-          :src="option.image"
-          class="h-6 w-6 rounded-full mr-3"
-          alt="Language Icon"
-        />
-        <span class="text-sm font-semibold text-right">{{ option.name }}</span>
+        <div
+          v-for="option in languageOptions"
+          :key="option.value"
+          class="flex justify-start items-center py-3 pl-4 pr-10 cursor-pointer hover:text-white duration-500"
+          @click="selectOption(option)"
+        >
+          <img
+            :src="option.image"
+            class="h-6 w-6 rounded-full mr-3"
+            alt="Language Icon"
+          />
+          <span class="text-sm font-semibold text-right">{{ option.name }}</span>
+        </div>
       </div>
     </div>
   </div>
