@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mr-8 ml-2">
+  <div class="relative mr-4 lg:mr-8 ml-2">
     <div 
     class="flex items-center cursor-pointer" 
     @mouseenter="toggleDropdown"  
