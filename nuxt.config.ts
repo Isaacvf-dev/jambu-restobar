@@ -6,8 +6,10 @@ export default defineNuxtConfig({
     //'@nuxtjs/stylelint-module',
     //'@nuxtjs/eslint-module',
     '@nuxtjs/i18n',
+    'nuxt-swiper'
   ],
   i18n: {
     vueI18n: './i18n.config.ts' // if you are using custom path, default 
-  }
+  },
+
 })
