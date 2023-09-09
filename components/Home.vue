@@ -6,7 +6,7 @@
       <div id="home-container" class="flex flex-col items-center justify-center h-full">
         <div class="text-white text-center font-poppins">
           <p class="text-3xl md:text-5xl font-normal title shadow-orange ">JAMBU</p>
-          <p class="text-6xl mb-4 md:text-8xl font-semibold subtitle shadow-orange ">RESTO BAR</p>
+          <p class="text-6xl mb-2 md:text-8xl font-semibold subtitle shadow-orange ">RESTO BAR</p>
           <p class="flex items-center justify-center px-8">
               <span class="block bg-white w-10 md:w-16 mx-1 h-0.5 md:mx-2"></span>
               <span class="text-sm md:text-lg">Music, Food, Tapas and Drinks</span>
