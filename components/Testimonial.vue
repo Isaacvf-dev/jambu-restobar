@@ -1,0 +1,92 @@
+<template>
+  <section
+    id="testimonial_section"
+    class="w-full h-[50vh] min-h-[550px] bg-cover bg-center bg-no-repeat bg-slate-950 bg-[url('assets/testimonial-background.png')] relative overflow-hidden"
+  >
+    <div
+      id="testimonial-container"
+      class="flex items-center justify-between h-full p-6 max-w-7xl mx-auto"
+    >
+      <div class="columns-3">
+        <div
+          class="text-white card text-center flex flex-col items-center mr-4 h-auto"
+        >
+          <div>
+            <img class="perfil" src="assets/testimonial-01.png" alt="" />
+          </div>
+          <p class="font-bold text-xl">Ni Marques</p>
+          <div class="flex mb-4">
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+          </div>
+          <p class="italic">
+            Espetacular! Sabe aquele lugar que você queria encontrar, comer com
+            vontade, lugar agradável, bonito, com ótimos drinks?! Pois lá eu
+            achei. Fiquei surpreso! O lugar é novo e superou minhas
+            expectativas. Recomendo, vou voltar e levar mais gente com certeza!
+          </p>
+        </div>
+
+        <div
+          class="text-white card text-center flex flex-col items-center h-auto mr-4"
+        >
+          <div>
+            <img class="perfil" src="assets/testimonial-02.png" alt="" />
+          </div>
+          <p class="font-bold text-xl">Valter F</p>
+          <div class="flex mb-4">
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+          </div>
+          <p class="italic">
+            Excelente atendimento, decoração de bom gosto, boa música e ambiente
+            aconchegante. Quanto aos pratos: melhor acarajé e abará que já
+            experimentei no Porto, além dos acompanhamentos que estavam todos
+            deliciosos, especialmente o camarão. Saí de lá já pensando em
+            voltar.
+          </p>
+        </div>
+
+        <div
+          class="text-white card text-center flex flex-col items-center h-auto"
+        >
+          <div>
+            <img class="perfil" src="assets/testimonial-03.png" alt="" />
+          </div>
+          <p class="font-bold text-xl">Rui P</p>
+          <div class="flex mb-4">
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+            <img src="assets/star.svg" alt="" />
+          </div>
+          <p class="italic">
+            Lugar excelente, cheio de boa gente e um ambiente espetacular… a
+            comida foi simplesmente espetacular e diferente … Recomendo 100% a
+            experiencia do Jambu !
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template> 
+
+<style scoped>
+.card {
+  width: 434px;
+  background: rgba(217, 217, 217, 0.49);
+  border-radius: 20px;
+  padding: 35px;
+}
+
+.perfil {
+  margin-top: -94px;
+}
+</style>

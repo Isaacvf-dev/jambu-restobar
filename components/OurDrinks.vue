@@ -8,7 +8,7 @@
       class="flex items-center justify-center h-full overflow-hidden p-6"
     >
       <div class="text-white text-center font-poppins z-10 w-full">
-        <h1 class="text-5xl mb-6 font-semibold mb-14">Nossos <span class="text-amber-600">Drinks</span></h1>
+        <h1 class="text-5xl mb-6 font-semibold mb-20">Nossos <span class="text-amber-600">Drinks</span></h1>
         <div class="w-full flex max-w-6xl mx-auto">
           <div class="w-1/2 mr-4">
             <img
@@ -24,7 +24,7 @@
               />
               <img
                 src="assets/our-drinks-item-3.png"
-                class="w-1/2 aspect-w-1 aspect-h-1"
+                class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
                 alt=""
               />
             </div>
@@ -39,7 +39,7 @@
               />
               <img
                 src="assets/our-drinks-item-5.png"
-                class="w-1/2 aspect-w-1 aspect-h-1"
+                class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
                 alt=""
               />
             </div>

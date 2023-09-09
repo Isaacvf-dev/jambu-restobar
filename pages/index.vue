@@ -4,8 +4,10 @@
   <About />
   <Reservation />
   <Menu />
+  <Testimonial />
   <OurDrinks />
   <OurPlace />
+  <HowToFind />
   <Place />
   <Footer />
 </template>
