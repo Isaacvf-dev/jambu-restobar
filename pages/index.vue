@@ -7,7 +7,7 @@
   <OurDrinks />
   <OurPlace />
   <Place />
-
+  <Footer />
 </template>
 
 <script>

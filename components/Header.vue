@@ -2,13 +2,7 @@
   <header class="w-full bg-slate-900 fixed z-20 text-white">    
     <nav class="max-w-7xl mx-auto px-4 py-2 md:flex md:justify-between md:items-center font-semibold">    
       <div class="flex justify-between items-center">
-        <a
-          class="flex items-center justify-center flex-col font-poppins my-sm"
-          href="#home_section"
-        >
-          <p class="text-xl lg:text-2xl font-semibold">JAMBU</p>
-          <p class="text-[8px] lg:text-[10px] mt-[-4px] lg:mt-[-8px] font-normal">RESTO BAR</p>
-        </a>
+        <Logo/>
           <!--Mobile Friendly Header-->
         <div class="flex">
           <lang-selector v-if="!isMenuVisible" class="md:hidden"/>
@@ -70,7 +64,7 @@ const menuItems: menuItems[] = [
   { name: "about", link: "#about_section" },
   { name: "menu", link: "#menu_section" },
   { name: "gallery", link: "#our_drinks_section" },
-  { name: "information", link: "#info_section" },
+  { name: "information", link: "#footer_section" },
 ]
 
 const isMenuVisible = ref(false)

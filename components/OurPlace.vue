@@ -7,7 +7,7 @@
       id="our-place-container"
       class="flex items-center justify-center h-full overflow-hidden p-6"
     >
-      <div class="text-white text-center font-poppins z-10 w-full">
+      <div class="text-white text-center font-poppins w-full">
         <h1 class="text-5xl mb-6 font-semibold mb-14">
           Nosso <span class="text-amber-600">Espaço</span>
         </h1>
