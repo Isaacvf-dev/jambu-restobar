@@ -1,15 +1,15 @@
 <template>
   <section
     id="testimonial_section"
-    class="w-full md:h-[50vh] md:min-h-[550px] bg-cover bg-center bg-no-repeat bg-slate-950 bg-[url('assets/testimonial-background.png')] relative overflow-hidden "
+    class="w-full  md:min-h-[550px] bg-cover bg-center bg-no-repeat bg-slate-950 bg-[url('assets/testimonial-background.png')] relative overflow-hidden "
   >
     <div
       id="testimonial-container"
       class="flex items-center justify-between h-full p-6 max-w-7xl mx-auto"
     >
-      <div class="columns-3 md:flex hidden">
+      <div class="columns-3 md:flex hidden mt-20">
         <div
-          class="text-white w-[434px] p-[35px] card text-center flex flex-col items-center mr-4 h-auto"
+          class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center mr-4 h-auto"
         >
           <div>
             <img class="perfil" src="assets/testimonial-01.png" alt="" />
@@ -31,7 +31,7 @@
         </div>
 
         <div
-          class="text-white w-[434px] p-[35px] card text-center flex flex-col items-center h-auto mr-4"
+          class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center h-auto mr-4"
         >
           <div>
             <img class="perfil" src="assets/testimonial-02.png" alt="" />
@@ -54,7 +54,7 @@
         </div>
 
         <div
-          class="text-white w-[434px] p-[35px] card text-center flex flex-col items-center h-auto"
+          class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center h-auto"
         >
           <div>
             <img class="perfil" src="assets/testimonial-03.png" alt="" />
