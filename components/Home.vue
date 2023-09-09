@@ -3,14 +3,21 @@
       id="home_section"
       class="w-full h-[100vh] bg-cover bg-center bg-no-repeat bg-[url('assets/HomeBackground.png')] bg-slate-950"
     >
-      <div id="home-container" class="flex items-center justify-center h-full">
+      <div id="home-container" class="flex flex-col items-center justify-center h-full">
         <div class="text-white text-center font-poppins">
-          <p class="text-[42px] font-normal title shadow-orange ">JAMBU</p>
-          <p class="text-[86px] font-semibold mt-[-32px] subtitle shadow-orange ">RESTO BAR</p>
-          <p class="flex items-center justify-center mt-[-16px]">
-              <span class="cerquilha mx-2"></span>
-              <span class="text-lg">Music, Food, Tapas and Drinks</span>
-              <span class="cerquilha mx-2"></span></p>
+          <p class="text-3xl md:text-5xl font-normal title shadow-orange ">JAMBU</p>
+          <p class="text-6xl mb-4 md:text-8xl font-semibold subtitle shadow-orange ">RESTO BAR</p>
+          <p class="flex items-center justify-center px-8">
+              <span class="block bg-white w-10 md:w-16 mx-1 h-0.5 md:mx-2"></span>
+              <span class="text-sm md:text-lg">Music, Food, Tapas and Drinks</span>
+              <span class="block bg-white w-10 md:w-16 h-0.5 mx-1 md:mx-2"></span></p>
+        </div>
+        <div class="md:hidden mt-8 text-white">
+          <a
+          href="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
+          class="uppercase transition duration-100 delay-75 font-semibold px-8 py-3 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm"
+          >{{ $t("reservation") }}</a>
+
         </div>
       </div>
     </section>
@@ -29,10 +36,5 @@
     font-weight: 500;
  }
 
- .cerquilha {
-  width: 60px;
-  height: 2px;
-  background-color: white;
-  display: block;
- }
+
 </style>
