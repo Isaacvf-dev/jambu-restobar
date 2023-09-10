@@ -1,6 +1,6 @@
 <template>
   <section id="menu_section" class="w-full h-full md:h-screen bg-[url('assets/MenuBackground.png')] bg-slate-950">
-    <h1 class="text-amber-600 text-2xl sm:text-5xl text-center font-normal pt-3 lg:pt-6">Menu</h1>
+    <h1 class="text-amber-600 text-2xl sm:text-5xl text-center font-semibold pt-3 lg:pt-6">Menu</h1>
     <div id="menu-container" class="md:ml-6 sm:flex flex-row justify-center sm:max-h-[85vh] gap-3 sm:gap-20 pt-4 sm:pt-10">
       <div class=" flex flex-col">
         <img src="assets/menu-image-01.png" class="h-52 sm:h-2/5 object-cover pb-2" alt="Prato do menu">
