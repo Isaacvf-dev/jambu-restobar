@@ -1,24 +1,24 @@
 <template>
   <section
     id="about_section"
-    class="w-full h-[100vh] bg-[url('assets/MenuBackground.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
+    class="w-full md:h-[100vh] bg-[url('assets/MenuBackground.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
   >
-    <div id="about-container" class="flex items-center justify-center h-full overflow-hidden p-6">
-      <div class="flex absolute background-top">
-        <img src="assets/about-item-4.png" alt="" class="" />
-        <img src="assets/about-item-5.png" alt="" class="" />
-        <img src="assets/about-item-6.png" alt="" class="" />
-      </div>
-      <div class="text-white text-center font-poppins z-10 max-w-2xl	">
-        <h1 class="text-5xl mb-6 font-semibold">Sobre</h1>
-        <p class="text-lg mb-2">
+    <div
+      id="about-container"
+      class="md:flex items-center justify-center h-full overflow-hidden p-6"
+    >
+      <div class="text-white text-center font-poppins md:w-1/2 p-4 md:p-10 xl:p-20">
+        <h1 class="md:text-5xl text-4xl mb-6 font-semibold md:mb-10">
+          Filosofia <span class="text-amber-600">&</span> Cozinha
+        </h1>
+        <p class="lg:text-lg text-base mb-2">
           Bem-vindo ao saboroso encontro de culturas culinárias no coração do
           Porto! No nosso restaurante, cada prato é uma viagem sensorial única,
           onde ingredientes tradicionais e inspirações contemporâneas se fundem
           em harmonia. Se você busca uma experiência gastronômica autêntica e
           apaixonante, aqui é o seu destino.
         </p>
-        <p class="text-lg">
+        <p class="lg:text-lg text-base">
           Nossa dedicação à qualidade, aliada a um ambiente acolhedor e
           descontraído, fará você se sentir em casa desde o primeiro momento.
           Junte-se a nós e celebre o encontro de paladares e culturas em uma
@@ -27,23 +27,14 @@
           tornar cada momento memorável.
         </p>
       </div>
-      <div class="flex absolute background-bottom">
-        <img src="assets/about-item-1.png" alt="" class="" />
-        <img src="assets/about-item-2.png" alt="" class="" />
-        <img src="assets/about-item-3.png" alt="" class="" />
+      <div class="md:w-1/2 xl:columns-3 columns-2 w-5/6 mx-auto gap-2 my-4">
+        <img src="assets/about-item-1.png" alt="" class="mx-auto"/>
+        <img src="assets/about-item-2.png" alt="" class="mt-4 mx-auto" />
+        <img src="assets/about-item-3.png" alt=""  class="mx-auto"/>
+        <img src="assets/about-item-4.png" alt="" class="mt-4 mx-auto" />
+        <img src="assets/about-item-5.png" alt="" class="xl:block hidden" />
+        <img src="assets/about-item-6.png" alt="" class="mt-4 xl:block hidden" />
       </div>
     </div>
   </section>
 </template> 
-
-<style scoped>
-.background-bottom {
-  bottom: 0;
-  left: 0;
-}
-
-.background-top {
-  top: 0;
-  right: 0;
-}
-</style>
