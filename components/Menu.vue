@@ -35,7 +35,7 @@
             <p class="text-xs lg:text-base text-white">A crocância das batatas fritas se funde com a carne seca e o sabor aconchegante do molho de queijos.</p>
           </div>        
                     
-          <button class="bg-amber-600 hover:bg-amber-700 transition duration-100 delay-75 text-xs sm:text-sm lg:text-base text-white w-fit pt-1 lg:p-2 pb-1 lg:px-4 pl-2 pr-2 rounded-3xl self-center">Menu Completo</button>
+          <button class="bg-amber-600 hover:bg-amber-700 transition duration-100 delay-75 text-xs sm:text-sm lg:text-base text-white w-fit pt-1 lg:p-2 pb-1 lg:px-6 px-2 rounded-3xl self-center font-semibold ">Menu Completo</button>
         </div>
        
       </div>
