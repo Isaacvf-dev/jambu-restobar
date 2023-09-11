@@ -1,7 +1,7 @@
 <template>
   <section
     id="our_place_section"
-    class="w-full md:h-[100vh]  bg-cover bg-center bg-no-repeat bg-slate-950 relative "
+    class="w-full lg:h-[100vh]  bg-cover bg-center bg-no-repeat bg-slate-950 relative "
   >
     <div
       id="our-place-container"
