@@ -13,10 +13,11 @@
               <span class="block bg-white w-10 md:w-16 h-0.5 mx-1 md:mx-2"></span></p>
         </div>
         <div class="md:hidden mt-8 text-white">
-          <a
-          href="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
+          <NuxtLink
+          target="_blank"
+          to="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
           class="uppercase transition duration-100 delay-75 font-semibold px-8 py-3 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm"
-          >{{ $t("reservation") }}</a>
+          >{{ $t("reservation") }}</NuxtLink>
 
         </div>
       </div>

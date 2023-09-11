@@ -14,12 +14,13 @@
         <p class="text-base md:text-lg lg:text-xl">Faça sua reserva e aproveite nossas promoções</p>
       </div>
       <div class="mt-6 md:mt-0">
-        <a
-          href="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
+        <NuxtLink
+          to="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
+          target="_blank"
           class="text-sm md:text-lg  lg:text-xl ml-auto mr-auto uppercase hover:bg-amber-700 text-white font-semibold transition duration-100 delay-75 px-7 lg:px-10 py-3 lg:py-4 bg-amber-600 rounded-[120px]"
           >
           RESERVE JÁ
-        </a>
+        </NuxtLink>
 
       </div>
     </div>

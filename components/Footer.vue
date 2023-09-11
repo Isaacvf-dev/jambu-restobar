@@ -21,12 +21,12 @@
             <Logo class="md:mx-0 mx-auto" />
           </div>
           <div class="flex mb-8"> 
-            <a href="https://wa.me/351910444333" class="mr-6 md:ml-0 ml-auto">
+            <NuxtLink to="https://wa.me/351910444333" target="_blank" class="mr-6 md:ml-0 ml-auto">
               <img src="assets/whatsapp.png" alt="" />
-            </a>
-            <a href="https://www.instagram.com/jamburestobar.pt/" class="md:mr-0 mr-auto">
+            </NuxtLink>
+            <NuxtLink to="https://www.instagram.com/jamburestobar.pt/" target="_blank" class="md:mr-0 mr-auto">
               <img src="assets/instagram.png" alt="" />
-            </a>
+            </NuxtLink>
           </div>
           <div class="mb-8">
             <p class="font-semibold mb-3">HORÁRIOS DE FUNCIONAMENTO</p>
@@ -42,10 +42,10 @@
             </div>
           </div>
           <div>
-            <a href="https://www.livroreclamacoes.pt/Inicio/"
+            <NuxtLink to="https://www.livroreclamacoes.pt/Inicio/" target="_blank"
               ><img src="assets/complaint-book.png" alt="" width="200"
                class="md:mx-0 mx-auto"
-            /></a>
+            /></NuxtLink>
           </div>
         </div>
         <div class="relative mt-8 md:text-left text-center">
