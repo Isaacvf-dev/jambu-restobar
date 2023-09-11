@@ -22,10 +22,10 @@
           </div>
           <div class="flex mb-8"> 
             <NuxtLink to="https://wa.me/351910444333" target="_blank" class="mr-6 md:ml-0 ml-auto">
-              <img src="assets/whatsapp.png" alt="" />
+              <NuxtImg loading="lazy" src="assets/whatsapp.png" alt="" />
             </NuxtLink>
             <NuxtLink to="https://www.instagram.com/jamburestobar.pt/" target="_blank" class="md:mr-0 mr-auto">
-              <img src="assets/instagram.png" alt="" />
+              <NuxtImg loading="lazy" src="assets/instagram.png" alt="" />
             </NuxtLink>
           </div>
           <div class="mb-8">
@@ -43,7 +43,7 @@
           </div>
           <div>
             <NuxtLink to="https://www.livroreclamacoes.pt/Inicio/" target="_blank"
-              ><img src="assets/complaint-book.png" alt="" width="200"
+              ><NuxtImg src="assets/complaint-book.png" alt="" width="200" loading="lazy"
                class="md:mx-0 mx-auto"
             /></NuxtLink>
           </div>

@@ -12,15 +12,15 @@
           class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center mr-4 h-auto"
         >
           <div>
-            <img class="perfil" src="assets/testimonial-01.png" alt="" />
+            <NuxtImg class="perfil" src="assets/testimonial-01.png" alt="" />
           </div>
           <p class="font-bold text-xl">Ni Marques</p>
           <div class="flex mb-4">
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
           </div>
           <p class="italic">
             Espetacular! Sabe aquele lugar que você queria encontrar, comer com
@@ -34,15 +34,15 @@
           class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center h-auto mr-4"
         >
           <div>
-            <img class="perfil" src="assets/testimonial-02.png" alt="" />
+            <NuxtImg class="perfil" src="assets/testimonial-02.png" alt="" />
           </div>
           <p class="font-bold text-xl">Valter F</p>
           <div class="flex mb-4">
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
           </div>
           <p class="italic">
             Excelente atendimento, decoração de bom gosto, boa música e ambiente
@@ -57,15 +57,15 @@
           class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center h-auto"
         >
           <div>
-            <img class="perfil" src="assets/testimonial-03.png" alt="" />
+            <NuxtImg class="perfil" src="assets/testimonial-03.png" alt="" />
           </div>
           <p class="font-bold text-xl">Rui P</p>
           <div class="flex mb-4">
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
-            <img src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
+            <NuxtImg src="assets/star.svg" alt="" />
           </div>
           <p class="italic">
             Lugar excelente, cheio de boa gente e um ambiente espetacular… a
@@ -90,15 +90,15 @@
               class="text-white card p-5 mt-20 text-center mr-4 w-full flex flex-col items-center"
             >
               <div>
-                <img class="perfil" src="assets/testimonial-01.png" alt="" />
+                <NuxtImg class="perfil" src="assets/testimonial-01.png" alt="" />
               </div>
               <p class="font-bold text-xl">Ni Marques</p>
               <div class="flex mb-4 mx-auto">
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
               </div>
               <p class="italic">
                 Espetacular! Sabe aquele lugar que você queria encontrar, comer
@@ -114,15 +114,15 @@
               class="text-white card p-5 mt-20 text-center flex flex-col items-center h-auto"
             >
               <div>
-                <img class="perfil" src="assets/testimonial-02.png" alt="" />
+                <NuxtImg class="perfil" src="assets/testimonial-02.png" alt="" />
               </div>
               <p class="font-bold text-xl">Valter F</p>
               <div class="flex mb-4">
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
               </div>
               <p class="italic">
                 Excelente atendimento, decoração de bom gosto, boa música e
@@ -138,15 +138,15 @@
               class="text-white card p-5 mt-20 text-center flex flex-col items-center h-auto"
             >
               <div>
-                <img class="perfil" src="assets/testimonial-03.png" alt="" />
+                <NuxtImg class="perfil" src="assets/testimonial-03.png" alt="" />
               </div>
               <p class="font-bold text-xl">Rui P</p>
               <div class="flex mb-4">
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
-                <img src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
+                <NuxtImg src="assets/star.svg" alt="" />
               </div>
               <p class="italic">
                 Lugar excelente, cheio de boa gente e um ambiente espetacular… a

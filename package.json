@@ -20,6 +20,7 @@
     "stylelint": "^15.10.2"
   },
   "dependencies": {
+    "@nuxt/image": "^1.0.0-rc.1",
     "nuxt-storage": "^1.2.2",
     "nuxt-swiper": "^1.2.2"
   }
