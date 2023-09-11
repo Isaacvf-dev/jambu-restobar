@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="relative mt-8 md:text-left text-center">
-          <p>© 2023 Restaurants. All Right Reserved. Developed by Raydan</p>
+          <p>© 2023 Jambu. All Right Reserved. Developed by Raydan</p>
         </div>
       </div>
     </div>
