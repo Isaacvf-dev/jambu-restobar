@@ -1,7 +1,7 @@
 <template>
   <section
     id="about_section"
-    class="w-full md:h-full lg:h-screen pt-16 md:pt-24 md:pb-10 bg-[url('assets/MenuBackground.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
+    class="w-full md:h-full lg:h-screen pt-16 md:pt-24 md:pb-10 bg-[url('public/assets/menu-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
   >
     <div
       id="about-container"
