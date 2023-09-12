@@ -9,7 +9,7 @@
     >
       <div class="text-white text-center font-poppins w-full">
         <h1 class="md:text-5xl text-4xl mb-8 font-semibold lg:mb-20">
-          Nosso <span class="text-amber-600">Espaço</span>
+          {{ $t('OurPlaceTitle1') }} <span class="text-amber-600"> {{ $t('OurPlaceTitle2') }} </span>
         </h1>
         <div class="md:hidden">
           <Swiper

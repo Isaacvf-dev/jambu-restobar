@@ -9,7 +9,7 @@
     >
       <div class="text-white text-center font-poppins w-full">
         <h1 class="md:text-5xl text-4xl mb-6 font-semibold md:mb-20">
-          Como <span class="text-amber-600">Chegar?</span>
+          {{ $t('HowToFindTitle1') }} <span class="text-amber-600"> {{ $t('HowToFindTitle2') }} </span>
         </h1>
         <div class="w-full flex max-w-7xl mx-auto justify-center ">
           <video class="w-1/4 aspect-w-1 aspect-h-1 mx-8 md:block hidden" controls autoplay muted>

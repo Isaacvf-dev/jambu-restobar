@@ -23,10 +23,7 @@
             <NuxtImg src="assets/star.svg" alt="" />
           </div>
           <p class="italic">
-            Espetacular! Sabe aquele lugar que você queria encontrar, comer com
-            vontade, lugar agradável, bonito, com ótimos drinks?! Pois lá eu
-            achei. Fiquei surpreso! O lugar é novo e superou minhas
-            expectativas. Recomendo, vou voltar e levar mais gente com certeza!
+            {{ $t('Testimonial1') }}
           </p>
         </div>
 
@@ -45,11 +42,7 @@
             <NuxtImg src="assets/star.svg" alt="" />
           </div>
           <p class="italic">
-            Excelente atendimento, decoração de bom gosto, boa música e ambiente
-            aconchegante. Quanto aos pratos: melhor acarajé e abará que já
-            experimentei no Porto, além dos acompanhamentos que estavam todos
-            deliciosos, especialmente o camarão. Saí de lá já pensando em
-            voltar.
+            {{ $t('Testimonial2') }}
           </p>
         </div>
 
@@ -68,9 +61,7 @@
             <NuxtImg src="assets/star.svg" alt="" />
           </div>
           <p class="italic">
-            Lugar excelente, cheio de boa gente e um ambiente espetacular… a
-            comida foi simplesmente espetacular e diferente … Recomendo 100% a
-            experiencia do Jambu !
+            {{ $t('Testimonial3') }}
           </p>
         </div>
       </div>

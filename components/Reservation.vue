@@ -9,9 +9,9 @@
     >
       <div class="text-white text-center md:text-left font-poppins z-10 max-w-3xl">
         <h1 class="text-amber-600 text-xl md:text-3xl lg:text-5xl mb-2 font-semibold">
-          Comemore e divirta-se em <br />um dos melhores restaurantes
+          {{ $t('reservationH1') }}
         </h1>
-        <p class="text-base md:text-lg lg:text-xl">Faça sua reserva e aproveite nossas promoções</p>
+        <p class="text-base md:text-lg lg:text-xl"> {{ $t('reservationParagraph') }} </p>
       </div>
       <div class="mt-6 md:mt-0">
         <NuxtLink
@@ -19,7 +19,7 @@
           target="_blank"
           class="text-sm md:text-lg  lg:text-xl ml-auto mr-auto uppercase hover:bg-amber-700 text-white font-semibold transition duration-100 delay-75 px-7 lg:px-10 py-3 lg:py-4 bg-amber-600 rounded-[120px]"
           >
-          RESERVE JÁ
+          {{ $t('reservationButton') }}
         </NuxtLink>
 
       </div>
