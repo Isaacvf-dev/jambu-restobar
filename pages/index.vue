@@ -15,7 +15,18 @@
           em harmonia. Se você busca uma experiência gastronômica autêntica e
           apaixonante, aqui é o seu destino."
     />
-    <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <Meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <Meta name="og:title" content="Jambu - Resto Bar" />
+    <Meta name="og:description" content="No nosso restaurante, cada prato é uma viagem sensorial única,
+          onde ingredientes tradicionais e inspirações contemporâneas se fundem
+          em harmonia." />
+
+    <Meta name="og:image" content="/preview.png" />
+    <Meta name="copyright" content="Raydan 2023"/>
+    <Meta name='robots' content='index, follow' />
   </Head>
 
   <Header />
