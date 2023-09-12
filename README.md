@@ -20,6 +20,25 @@ To develop this website I used the following technologies:
 
 ---
 
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# npm
+npm install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+```
+---
+
 <h2>Author</h2>
 
 <table>
@@ -42,22 +61,3 @@ To develop this website I used the following technologies:
     </td>
   </tr>
 </table>
-
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-```
