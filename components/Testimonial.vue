@@ -1,7 +1,7 @@
 <template>
   <section
     id="testimonial_section"
-    class="w-full  md:min-h-[550px] bg-cover bg-center bg-no-repeat bg-slate-950 bg-[url('assets/testimonial-background.png')] relative overflow-hidden "
+    class="w-full  md:min-h-[550px] bg-cover bg-center bg-no-repeat bg-slate-950 bg-[url('public/assets/testimonial-background.png')] relative overflow-hidden "
   >
     <div
       id="testimonial-container"

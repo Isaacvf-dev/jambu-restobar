@@ -1,7 +1,7 @@
 <template>
   <section
     id="our_place_section"
-    class="w-full lg:h-[100vh] bg-[url('assets/MenuBackground.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden pb-5 pt-16 md:pb-10 md:px-4"
+    class="w-full lg:h-[100vh] bg-[url('public/assets/menu-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden pb-5 pt-16 md:pb-10 md:px-4"
   >
     <div
       id="our-place-container"
