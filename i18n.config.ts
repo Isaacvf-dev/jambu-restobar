@@ -3,7 +3,7 @@ import nuxtStorage from 'nuxt-storage';
 
 
 export default defineI18nConfig(() => {
-  const lang = nuxtStorage.localStorage.getData('jambu-bar-lang') || 'pt';
+  const lang = nuxtStorage?.localStorage?.getData('jambu-bar-lang') || 'pt';
 
   return ({
     legacy: false,

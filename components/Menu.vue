@@ -1,5 +1,5 @@
 <template>
-  <section id="menu_section" class="w-full flex flex-col justify-center p-6 pt-16 md:pb-10 md:pt-20  h-full md:h-screen bg-[url('public/assets/MenuBackground.png')] bg-slate-950">
+  <section id="menu_section" class="w-full flex flex-col justify-center p-6 pt-16 md:pb-10 md:pt-20  h-full md:h-screen bg-[url('public/assets/menu-background.png')] bg-slate-950">
     <h1 class="text-amber-600 text-2xl sm:text-5xl text-center font-semibold mb-6 md:mb-10 lg:pt-6"> {{ $t('menuTitle') }} </h1>
     <div id="menu-container" class="w-full sm:flex flex-row justify-evenly lg:px-8 sm:max-h-[70vh]  pt-4 sm:pt-6 md:pb-4">
       <div class=" flex flex-col w-full max-w-3xl ">

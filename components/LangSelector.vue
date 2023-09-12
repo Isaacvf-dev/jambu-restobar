@@ -45,7 +45,7 @@ interface LanguageOption {
 }
 const { locale } = useI18n();
 
-const lang = ref<string>( nuxtStorage.localStorage.getData('jambu-bar-lang') || "pt");
+const lang = ref<string>( nuxtStorage?.localStorage?.getData('jambu-bar-lang') || "pt");
 
 const languageOptions: LanguageOption[] = [
   { value: "pt", name: "Português", image: "assets/portugal.png" },
