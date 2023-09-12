@@ -22,7 +22,7 @@
           <div class="relative h-1/5 lg:h-1/4 pl-24 pt-2 pb-4 pr-6 lg:pr-8 bg-slate-900 rounded-tr-md rounded-bl-md rounded-br-3xl">
             <NuxtImg src="assets/menu-item-02.png" loading="lazy" alt="Imagem do Mix Jambu" class="absolute top-0 left-0 w-2/6 lg:w-1/5 -ml-4 -mt-4"/>          
             <h3 class="text-sm md:text-lg lg:text-xl text-amber-600 pb-1"> {{ $t('menuItemTitle2') }} </h3>
-            <p class="text-xs lg:text-base text-white"> {{ $t('menuItemDescription1') }} </p>
+            <p class="text-xs lg:text-base text-white"> {{ $t('menuItemDescription2') }} </p>
           </div>
           <div class="relative h-1/5 lg:h-1/4 pl-24 pt-2 pb-4 pr-6 lg:pr-8 bg-slate-900 rounded-tr-md rounded-bl-md rounded-br-3xl">
             <NuxtImg src="assets/menu-item-03.png" loading="lazy" alt="Imagem da porção de acarajé" class="absolute top-0 left-0 w-2/6 lg:w-1/5 -ml-4 -mt-4"/>          

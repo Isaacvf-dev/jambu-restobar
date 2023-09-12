@@ -32,8 +32,8 @@ export default {
   HowToFindTitle2: 'Chegar?',
   FooterTitle: 'HORÁRIOS DE FUNCIONAMENTO',
   FooterDaysOfWeek1: 'Terça e Quinta',
-  FooterTime1: '06:00 pm às 11:00pm',
+  FooterTime1: '06:00pm às 11:00pm',
   FooterDaysOfWeek2: 'Sexta e Sábado',
-  FooterTime2: '06:00 pm às 02:00pm',
+  FooterTime2: '06:00pm às 02:00am',
   FooterComplainBook: 'assets/complaint-book.png'
 }
