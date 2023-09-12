@@ -9,7 +9,7 @@
     >
       <div class="text-white text-center font-poppins z-10 w-full">
         <h1 class="md:text-5xl text-4xl mb-6 font-semibold">
-          Nossos <span class="text-amber-600">Drinks</span>
+          {{ $t('OurDrinksTitle1') }} <span class="text-amber-600"> {{ $t('OurDrinksTitle2') }} </span>
         </h1>
         <div class="w-full md:flex hidden max-w-6xl mx-auto ">
           <div class="w-1/2 mr-4">

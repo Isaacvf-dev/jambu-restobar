@@ -29,21 +29,21 @@
             </NuxtLink>
           </div>
           <div class="mb-8">
-            <p class="font-semibold mb-3">HORÁRIOS DE FUNCIONAMENTO</p>
+            <p class="font-semibold mb-3"> {{ $t('FooterTitle') }} </p>
             <div class="md:flex inline">
               <div class="md:mr-10">
-                <p>Terça e Quinta</p>
-                <p>06:00 pm às 11:00pm</p>
+                <p> {{ $t('FooterDaysOfWeek1') }} </p>
+                <p> {{ $t('FooterTime1') }} </p>
               </div>
               <div class="md:mt-0 mt-2">
-                <p>Sexta e Sábado</p>
-                <p>06:00 pm às 02:00pm</p>
+                <p> {{ $t('FooterDaysOfWeek2') }} </p>
+                <p> {{ $t('FooterTime2') }} </p>
               </div>
             </div>
           </div>
           <div>
             <NuxtLink to="https://www.livroreclamacoes.pt/Inicio/" target="_blank"
-              ><NuxtImg src="assets/complaint-book.png" alt="" width="200" loading="lazy"
+              ><NuxtImg :src="  $t('FooterComplainBook')  " alt="" width="200" loading="lazy"
                class="md:mx-0 mx-auto"
             /></NuxtLink>
           </div>
