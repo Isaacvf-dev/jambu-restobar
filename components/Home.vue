@@ -1,7 +1,7 @@
 <template>
     <section
       id="home_section"
-      class="w-full h-[100vh] bg-cover bg-center bg-no-repeat bg-[url('public/assets/home-background.png')] bg-slate-950"
+      class="w-full h-[100vh] bg-cover bg-center bg-no-repeat bg-[url('/assets/home-background.png')] bg-slate-950"
     >
       <div id="home-container" class="flex flex-col items-center justify-center h-full">
         <div class="text-white text-center font-poppins">
