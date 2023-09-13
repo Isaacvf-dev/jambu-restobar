@@ -35,5 +35,11 @@ export default {
   FooterTime1: '06:00pm às 11:00pm',
   FooterDaysOfWeek2: 'Sexta e Sábado',
   FooterTime2: '06:00pm às 02:00am',
-  FooterComplainBook: 'assets/complaint-book.png'
+  FooterComplainBook: 'assets/complaint-book.png',
+  redDrink: 'copo com bebida vermelha e alguns pedaços de morango, uma folha verde e gelo',
+  whiteDrink: 'copo com bebida branca contendo uma folha verde, canudo branco e um granulado amarelo nas bordas do copo',
+  shrimpDish: 'camarões grandes com molho branco e cheiro verde em uma assadeira preta',
+  jambuHall: 'espaço arborizado do restaurante com sofá, balcão, mesa e cadeiras',
+  chickenBalls: 'coxinhas de frango e molho branco temperado',
+  blueDrink: 'copo com bebida azul e rodela de limão', 
 }
