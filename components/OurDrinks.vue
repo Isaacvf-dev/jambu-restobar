@@ -13,20 +13,20 @@
         </h1>
         <div class="w-full md:flex hidden max-w-6xl mx-auto ">
           <div class="w-1/2 mr-4">
-            <NuxtImg
+            <NuxtImg format="webp"
               src="assets/our-drinks-item-1.png"
               class="w-full aspect-video"
               alt=""
               loading="lazy"
             />
             <div class="flex pt-6">
-              <NuxtImg
+              <NuxtImg format="webp"
                 src="assets/our-drinks-item-2.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 mr-auto"
                 alt=""
                 loading="lazy"
               />
-              <NuxtImg
+              <NuxtImg format="webp"
                 src="assets/our-drinks-item-3.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
                 alt=""
@@ -37,20 +37,20 @@
 
           <div class="w-1/2 ml-4">
             <div class="flex pb-6">
-              <NuxtImg
+              <NuxtImg format="webp"
                 src="assets/our-drinks-item-4.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 mr-auto"
                 alt=""
                 loading="lazy"
               />
-              <NuxtImg
+              <NuxtImg format="webp"
                 src="assets/our-drinks-item-5.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
                 alt=""
                 loading="lazy"
               />
             </div>
-            <NuxtImg
+            <NuxtImg format="webp"
               src="assets/our-drinks-item-6.png"
               class="w-full aspect-video"
               alt=""
@@ -71,20 +71,20 @@
           >
             <SwiperSlide>
               <div class="w-5/6 mx-auto">
-                <NuxtImg
+                <NuxtImg format="webp"
                   src="assets/our-drinks-item-1.png"
                   class="w-full aspect-video"
                   alt=""
                   loading="lazy"
                 />
                 <div class="flex pt-6">
-                  <NuxtImg
+                  <NuxtImg format="webp"
                     src="assets/our-drinks-item-2.png"
                     class="w-1/2 aspect-w-1 aspect-h-1 mr-auto"
                     alt=""
                     loading="lazy"
                   />
-                  <NuxtImg
+                  <NuxtImg format="webp"
                     src="assets/our-drinks-item-3.png"
                     class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
                     alt=""
@@ -96,20 +96,20 @@
             <SwiperSlide>
               <div class="w-5/6 mx-auto">
                 <div class="flex pb-6">
-                  <NuxtImg
+                  <NuxtImg format="webp"
                     src="assets/our-drinks-item-4.png"
                     class="w-1/2 aspect-w-1 aspect-h-1 mr-auto"
                     alt=""
                     loading="lazy"
                   />
-                  <NuxtImg
+                  <NuxtImg format="webp"
                     src="assets/our-drinks-item-5.png"
                     class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
                     alt=""
                     loading="lazy"
                   />
                 </div>
-                <NuxtImg
+                <NuxtImg format="webp"
                   src="assets/our-drinks-item-6.png"
                   class="w-full aspect-video"
                   alt=""

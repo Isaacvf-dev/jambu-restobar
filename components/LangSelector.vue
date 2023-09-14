@@ -5,7 +5,7 @@
     @mouseenter="toggleDropdown"  
     @mouseleave="hideLangMenu"
     >
-      <NuxtImg
+      <NuxtImg format="webp"
         :src="selectedOption?.image"
         class="h-6 w-6 rounded-full"
         alt="Language Icon"
@@ -20,7 +20,7 @@
           class="flex justify-start items-center py-3 pl-4 pr-10 cursor-pointer hover:text-white duration-500"
           @click="selectOption(option)"
         >
-          <NuxtImg
+          <NuxtImg format="webp"
             :src="option.image"
             class="h-6 w-6 rounded-full mr-3"
             alt="Language Icon"
