@@ -1,7 +1,7 @@
 <template>
   <section
     id="our_drinks_section"
-    class="w-full pb-5 pt-12 md:pt-20 md:pb-10 md:px-4 h-full bg-[url('/assets/menu-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
+    class="w-full pb-5 pt-12 md:pt-20 md:pb-10 md:px-4 h-full bg-[url('public/assets/menu-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
   >
     <div
       id="our-drinks-container"

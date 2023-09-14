@@ -1,7 +1,7 @@
 <template>
   <section
     id="reservation_section"
-    class="w-full min-h-[255px] md:min-h-[275px] 	 bg-cover bg-center bg-no-repeat bg-slate-950 bg-[url('/assets/reservation-background.png')] relative overflow-hidden"
+    class="w-full min-h-[255px] md:min-h-[275px] 	 bg-cover bg-center bg-no-repeat bg-slate-950 bg-[url('public/assets/reservation-background.png')] relative overflow-hidden"
   >
     <div
       id="reservation-container"
