@@ -19,12 +19,12 @@
         </p>
       </div>
       <div class="md:w-1/2 xl:columns-3 columns-2 w-5/6 mx-auto gap-2 my-4">
-        <NuxtImg format="webp" src="assets/about-item-1.png" alt="" class="mx-auto"/>
-        <NuxtImg format="webp" src="assets/about-item-2.png" alt="" class="mt-4 mx-auto" />
-        <NuxtImg format="webp" src="assets/about-item-3.png" alt=""  class="mx-auto"/>
-        <NuxtImg format="webp" src="assets/about-item-4.png" alt="" class="mt-4 mx-auto" />
-        <NuxtImg format="webp" src="assets/about-item-5.png" alt="" class="xl:block hidden" />
-        <NuxtImg format="webp" src="assets/about-item-6.png" alt="" class="mt-4 xl:block hidden" />
+        <NuxtImg format="webp"  src="assets/about-item-1.png" :alt=" $t('redDrink') " class="mx-auto"/>
+        <NuxtImg format="webp"  src="assets/about-item-2.png" :alt=" $t('shrimpDish') " class="mt-4 mx-auto" />
+        <NuxtImg format="webp"  src="assets/about-item-3.png" :alt=" $t('whiteDrink') "  class="mx-auto"/>
+        <NuxtImg format="webp"  src="assets/about-item-4.png" :alt=" $t('jambuHall') " class="mt-4 mx-auto" />
+        <NuxtImg format="webp"  src="assets/about-item-5.png" :alt=" $t('blueDrink') " class="xl:block hidden" />
+        <NuxtImg format="webp"  src="assets/about-item-6.png" :alt=" $t('chickenBalls') " class="mt-4 xl:block hidden" />
       </div>
     </div>
   </section>
