@@ -10,7 +10,7 @@
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12017.77884929511!2d-8.6046952!3d41.1466465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24653b30148869%3A0x22f7c9b79ae460ab!2sJambu%20Resto!5e0!3m2!1spt-BR!2spt!4v1694269251824!5m2!1spt-BR!2spt"
           class="w-full h-auto"
           style="border: 0"
-          allowfullscreen=""
+          allow="fullscreen"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
@@ -22,10 +22,10 @@
           </div>
           <div class="flex mb-8"> 
             <NuxtLink to="https://wa.me/351910444333" target="_blank" class="mr-6 md:ml-0 ml-auto">
-              <NuxtImg loading="lazy" src="assets/whatsapp.png" alt="" />
+              <NuxtImg format="webp" loading="lazy" src="assets/whatsapp.png" alt="" />
             </NuxtLink>
             <NuxtLink to="https://www.instagram.com/jamburestobar.pt/" target="_blank" class="md:mr-0 mr-auto">
-              <NuxtImg loading="lazy" src="assets/instagram.png" alt="" />
+              <NuxtImg format="webp" loading="lazy" src="assets/instagram.png" alt="" />
             </NuxtLink>
           </div>
           <div class="mb-8">
@@ -43,7 +43,7 @@
           </div>
           <div>
             <NuxtLink to="https://www.livroreclamacoes.pt/Inicio/" target="_blank"
-              ><NuxtImg :src="  $t('FooterComplainBook')  " alt="" width="200" loading="lazy"
+              ><NuxtImg format="webp" :src="  $t('FooterComplainBook')  " alt="" width="200" loading="lazy"
                class="md:mx-0 mx-auto"
             /></NuxtLink>
           </div>

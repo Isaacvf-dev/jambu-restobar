@@ -22,7 +22,7 @@
             }"
           >
             <SwiperSlide>
-              <NuxtImg
+              <NuxtImg format="webp"
                 src="assets/our-place-item-1.png"
                 class="aspect-square mx-auto"
                 alt=""
@@ -30,7 +30,7 @@
               />
             </SwiperSlide>
             <SwiperSlide>
-              <NuxtImg
+              <NuxtImg format="webp"
                 src="assets/our-place-item-2.png"
                 class="aspect-square mx-auto"
                 alt=""
@@ -38,7 +38,7 @@
               />
             </SwiperSlide>
             <SwiperSlide>
-              <NuxtImg
+              <NuxtImg format="webp"
                 src="assets/our-place-item-3.png"
                 class="aspect-square mx-auto"
                 alt=""
@@ -49,19 +49,19 @@
         </div>
 
         <div class="w-full md:flex md: justify-evenly max-w-7xl mx-auto hidden md:px-8">
-          <NuxtImg
+          <NuxtImg format="webp"
             src="assets/our-place-item-1.png"
             class="w-1/3 aspect-w-1 aspect-h-2"
             alt=""
             loading="lazy"
           />
-          <NuxtImg
+          <NuxtImg format="webp"
             src="assets/our-place-item-2.png"
             class="w-1/3 aspect-w-1 aspect-h-2 mx-8"
             alt=""
             loading="lazy"
           />
-          <NuxtImg
+          <NuxtImg format="webp"
             src="assets/our-place-item-3.png"
             class="w-1/3 aspect-w-1 aspect-h-2"
             alt=""

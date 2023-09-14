@@ -1,11 +1,12 @@
 <template>
   <Head>
+    <!-- GENERAL TAGS -->
     <Title>Jambu Resto Bar</Title>
     <Meta name="author" content="Raydan by Daniel Soares" />
     <Meta name="author" content="Raydan by Isaac Francelino" />
     <Meta
       name="keywords"
-      content="porto, restaurantes no Porto, Trendy restaurante, restaurante top, Restaurantes restauração, jambu, jambu restaurante, Comer bem, Guia de restaurantes, jantar no porto, almoçar no porto, turismo do porto, viajar no porto, esplanada, restaurante de esplanada, area interior"
+      content="porto, restaurantes no Porto, Trendy restaurante, restaurante top, Restaurantes restauração, jambu, jambu restaurante, Comer bem, Guia de restaurantes, jantar no porto, almoçar no porto, turismo do porto, viajar no porto, esplanada, restaurante de esplanada, area interior, acarajé, comida baiana em porto, melhor acarajé"
     />
     <Meta
       name="description"
@@ -15,18 +16,33 @@
           em harmonia. Se você busca uma experiência gastronômica autêntica e
           apaixonante, aqui é o seu destino."
     />
-    <Meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-    />
-    <Meta name="og:title" content="Jambu - Resto Bar" />
-    <Meta name="og:description" content="No nosso restaurante, cada prato é uma viagem sensorial única,
-          onde ingredientes tradicionais e inspirações contemporâneas se fundem
-          em harmonia." />
+    <Meta name="viewport" content="width=device-width, initial-scale=1" />
+    <Meta name="copyright" content="Raydan 2023" />
+    <Meta name="robots" content="index, follow" />
 
+    <!-- TWITTER TAGS -->
+    <Meta name="twitter:title" content="Jambu - Resto Bar" />
+    <Meta
+      name="twitter:description"
+      content="No nosso restaurante, cada prato é uma viagem sensorial única,
+          onde ingredientes tradicionais e inspirações contemporâneas se fundem
+          em harmonia."
+    />
+    <Meta name="twitter:image" content="/preview.png" />
+    <Meta name="twitter:card" content="summary" />
+
+    <!-- FACEBOOK TAGS -->
+    <Meta name="og:title" content="Jambu - Resto Bar" />
+    <Meta
+      name="og:description"
+      content="No nosso restaurante, cada prato é uma viagem sensorial única,
+          onde ingredientes tradicionais e inspirações contemporâneas se fundem
+          em harmonia."
+    />
     <Meta name="og:image" content="/preview.png" />
-    <Meta name="copyright" content="Raydan 2023"/>
-    <Meta name='robots' content='index, follow' />
+    <Meta name="og:url" content="https://lp-jambu-bar.vercel.app/" />
+    <Meta name="og:type”" content="website" />
+    <Meta name="og:site_name" content="Jambu - Resto Bar" />
   </Head>
 
   <Header />
@@ -42,8 +58,16 @@
   <Footer />
 </template>
 
-<script>
-export default {};
+<script setup lang="ts">
+useHead({
+  htmlAttrs: {
+    lang: "pt",
+  },
+  meta: [
+    { charset: "utf-8" },
+  ],
+  link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+});
 </script>
 
 <style>
