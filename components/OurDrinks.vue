@@ -1,16 +1,16 @@
 <template>
   <section
     id="our_drinks_section"
-    class="w-full pb-5 pt-12 md:pt-20 md:pb-10 md:px-4 h-full bg-[url('public/assets/menu-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
+    class="w-full p-6 lg:pb-20 pt-16  md:pb-10 md:pt-20 lg:pt-10  md:px-4 h-full md:h-screen bg-[url('public/assets/menu-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
   >
+    <h1 class="text-2xl text-white sm:text-5xl text-center font-semibold pt-2 pb-6 md:pb-10 lg:pt-16">
+      {{ $t('OurDrinksTitle1') }} <span class="text-amber-600"> {{ $t('OurDrinksTitle2') }} </span>
+    </h1>
     <div
       id="our-drinks-container"
-      class="flex items-center justify-center h-full overflow-hidden p-6"
+      class="flex items-center justify-center sm:max-h-[67vh] overflow-hidden p-6"
     >
-      <div class="text-white text-center font-poppins z-10 w-full">
-        <h1 class="md:text-5xl text-4xl mb-6 font-semibold">
-          {{ $t('OurDrinksTitle1') }} <span class="text-amber-600"> {{ $t('OurDrinksTitle2') }} </span>
-        </h1>
+      <div class="text-center font-poppins z-10 w-full">
         <div class="w-full md:flex hidden max-w-6xl mx-auto ">
           <div class="w-1/2 mr-4">
             <NuxtImg format="webp"
