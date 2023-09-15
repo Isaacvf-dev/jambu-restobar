@@ -13,6 +13,7 @@
           allow="fullscreen"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          title="googleMaps"
         ></iframe>
       </div>
       <div class="text-white font-poppins px-6 flex flex-col justify-between md:text-left text-center">
@@ -21,11 +22,11 @@
             <Logo class="md:mx-0 mx-auto" />
           </div>
           <div class="flex mb-8"> 
-            <NuxtLink to="https://wa.me/351910444333" target="_blank" class="mr-6 md:ml-0 ml-auto">
-              <NuxtImg format="webp" loading="lazy" src="assets/whatsapp.png" alt="" />
+            <NuxtLink to="https://wa.me/351910444333" target="_blank" class="mr-6 md:ml-0 ml-auto" arial-label="whatsapp link">
+              <NuxtImg format="webp" loading="lazy" src="assets/whatsapp.png" alt="Whatsapp" />
             </NuxtLink>
-            <NuxtLink to="https://www.instagram.com/jamburestobar.pt/" target="_blank" class="md:mr-0 mr-auto">
-              <NuxtImg format="webp" loading="lazy" src="assets/instagram.png" alt="" />
+            <NuxtLink to="https://www.instagram.com/jamburestobar.pt/" target="_blank" class="md:mr-0 mr-auto" aria-label="Jamburestobar Instagram" >
+              <NuxtImg format="webp" loading="lazy" src="assets/instagram.png" alt="Instagram" />
             </NuxtLink>
           </div>
           <div class="mb-8">
@@ -42,7 +43,7 @@
             </div>
           </div>
           <div>
-            <NuxtLink to="https://www.livroreclamacoes.pt/Inicio/" target="_blank"
+            <NuxtLink to="https://www.livroreclamacoes.pt/Inicio/" target="_blank" aria-label="Livro de reclamações"
               ><NuxtImg format="webp" :src="  $t('FooterComplainBook')  " alt="" width="200" loading="lazy"
                class="md:mx-0 mx-auto"
             /></NuxtLink>

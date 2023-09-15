@@ -25,7 +25,7 @@
               <NuxtImg format="webp"
                 src="assets/our-place-item-1.png"
                 class="aspect-square mx-auto"
-                alt=""
+                :alt=" $t('restaurantBar') "
                 loading="lazy"
               />
             </SwiperSlide>
@@ -33,7 +33,7 @@
               <NuxtImg format="webp"
                 src="assets/our-place-item-2.png"
                 class="aspect-square mx-auto"
-                alt=""
+                :alt=" $t('restaurantTables') "
                 loading="lazy"
               />
             </SwiperSlide>
@@ -41,7 +41,7 @@
               <NuxtImg format="webp"
                 src="assets/our-place-item-3.png"
                 class="aspect-square mx-auto"
-                alt=""
+                :alt=" $t('restaurantBar2') "
                 loading="lazy"
               />
             </SwiperSlide>
@@ -52,19 +52,19 @@
           <NuxtImg format="webp"
             src="assets/our-place-item-1.png"
             class="w-1/3 aspect-w-1 aspect-h-2"
-            alt=""
+            :alt=" $t('restaurantBar') "
             loading="lazy"
           />
           <NuxtImg format="webp"
             src="assets/our-place-item-2.png"
             class="w-1/3 aspect-w-1 aspect-h-2 mx-8"
-            alt=""
+            :alt=" $t('restaurantTables') "
             loading="lazy"
           />
           <NuxtImg format="webp"
             src="assets/our-place-item-3.png"
             class="w-1/3 aspect-w-1 aspect-h-2"
-            alt=""
+            :alt=" $t('restaurantBar2') "
             loading="lazy"
           />
         </div>
