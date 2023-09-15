@@ -35,7 +35,7 @@
             <p class="text-xs lg:text-base text-white"> {{ $t('menuItemDescription4') }} </p>
           </div>        
                     
-          <button class="bg-amber-600 hover:bg-amber-700 transition duration-100 delay-75 text-xs sm:text-sm lg:text-base text-white w-fit pt-1 lg:p-2 pb-1 lg:px-6 px-2 rounded-3xl self-center font-semibold "> {{ $t('MenuButton') }} </button>
+          <button class="bg-amber-600 hover:bg-amber-500 transition duration-100 delay-75 text-xs sm:text-sm lg:text-base text-slate-900 w-fit pt-1 lg:p-2 pb-1 lg:px-6 px-2 rounded-3xl self-center font-semibold "> {{ $t('MenuButton') }} </button>
         </div>
        
       </div>
