@@ -12,15 +12,15 @@
           class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center mr-4 h-auto"
         >
           <div>
-            <NuxtImg format="webp" class="perfil" src="assets/testimonial-01.png" alt="" />
+            <NuxtImg format="webp" class="perfil" src="assets/testimonial-01.png" :alt=" $t('roundedUserIcon') " />
           </div>
           <p class="font-bold text-xl">Ni Marques</p>
           <div class="flex mb-4">
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
           </div>
           <p class="italic">
             {{ $t('Testimonial1') }}
@@ -31,15 +31,15 @@
           class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center h-auto mr-4"
         >
           <div>
-            <NuxtImg format="webp" class="perfil" src="assets/testimonial-02.png" alt="" />
+            <NuxtImg format="webp" class="perfil" src="assets/testimonial-02.png" :alt=" $t('roundedUserIcon') " />
           </div>
           <p class="font-bold text-xl">Valter F</p>
           <div class="flex mb-4">
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
           </div>
           <p class="italic">
             {{ $t('Testimonial2') }}
@@ -50,15 +50,15 @@
           class="text-white w-1/3 p-[35px] card text-center flex flex-col items-center h-auto"
         >
           <div>
-            <NuxtImg format="webp" class="perfil" src="assets/testimonial-03.png" alt="" />
+            <NuxtImg format="webp" class="perfil" src="assets/testimonial-03.png" :alt=" $t('roundedUserIcon') " />
           </div>
           <p class="font-bold text-xl">Rui P</p>
           <div class="flex mb-4">
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
-            <NuxtImg format="webp" src="assets/star.svg" alt="" />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+            <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
           </div>
           <p class="italic">
             {{ $t('Testimonial3') }}
@@ -81,15 +81,15 @@
               class="text-white card p-5 mt-20 text-center mr-4 w-full flex flex-col items-center"
             >
               <div>
-                <NuxtImg format="webp" class="perfil" src="assets/testimonial-01.png" alt="" />
+                <NuxtImg format="webp" class="perfil" src="assets/testimonial-01.png" :alt=" $t('roundedUserIcon') " />
               </div>
               <p class="font-bold text-xl">Ni Marques</p>
               <div class="flex mb-4 mx-auto">
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
               </div>
               <p class="italic">
                 Espetacular! Sabe aquele lugar que você queria encontrar, comer
@@ -105,15 +105,15 @@
               class="text-white card p-5 mt-20 text-center flex flex-col items-center h-auto"
             >
               <div>
-                <NuxtImg format="webp" class="perfil" src="assets/testimonial-02.png" alt="" />
+                <NuxtImg format="webp" class="perfil" src="assets/testimonial-02.png" :alt=" $t('roundedUserIcon') " />
               </div>
               <p class="font-bold text-xl">Valter F</p>
               <div class="flex mb-4">
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
               </div>
               <p class="italic">
                 Excelente atendimento, decoração de bom gosto, boa música e
@@ -129,15 +129,15 @@
               class="text-white card p-5 mt-20 text-center flex flex-col items-center h-auto"
             >
               <div>
-                <NuxtImg format="webp" class="perfil" src="assets/testimonial-03.png" alt="" />
+                <NuxtImg format="webp" class="perfil" src="assets/testimonial-03.png" :alt=" $t('roundedUserIcon') " />
               </div>
               <p class="font-bold text-xl">Rui P</p>
               <div class="flex mb-4">
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
-                <NuxtImg format="webp" src="assets/star.svg" alt="" />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
+                <NuxtImg format="webp" src="assets/star.svg" :alt=" $t('ratingStar') " />
               </div>
               <p class="italic">
                 Lugar excelente, cheio de boa gente e um ambiente espetacular… a

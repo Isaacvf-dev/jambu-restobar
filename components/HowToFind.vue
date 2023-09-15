@@ -1,11 +1,11 @@
 <template>
   <section
     id="our_place_section"
-    class="w-full lg:h-[100vh]  bg-cover bg-center bg-no-repeat bg-slate-950 relative "
+    class="w-full lg:h-screen  bg-cover bg-center bg-no-repeat bg-slate-950 relative "
   >
     <div
       id="our-place-container"
-      class="flex items-center justify-center h-full p-6 py-10"
+      class="flex items-center justify-center h-full p-6 py-10 lg:pt-2 "
     >
       <div class="text-white text-center font-poppins w-full">
         <h1 class="md:text-5xl text-4xl mb-6 font-semibold md:mb-20">
