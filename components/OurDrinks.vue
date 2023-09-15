@@ -16,20 +16,20 @@
             <NuxtImg format="webp"
               src="assets/our-drinks-item-1.png"
               class="w-full aspect-video"
-              alt=""
+              :alt=" $t('orangeDrink') "
               loading="lazy"
             />
             <div class="flex pt-6">
               <NuxtImg format="webp"
                 src="assets/our-drinks-item-2.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 mr-auto"
-                alt=""
+                :alt=" $t('orangeDrinkLeaf') "
                 loading="lazy"
               />
               <NuxtImg format="webp"
                 src="assets/our-drinks-item-3.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
-                alt=""
+                :alt=" $t('whiteDrink') "
                 loading="lazy"
               />
             </div>
@@ -40,20 +40,20 @@
               <NuxtImg format="webp"
                 src="assets/our-drinks-item-4.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 mr-auto"
-                alt=""
+                :alt=" $t('redDrink') "
                 loading="lazy"
               />
               <NuxtImg format="webp"
                 src="assets/our-drinks-item-5.png"
                 class="w-1/2 aspect-w-1 aspect-h-1 ml-4"
-                alt=""
+                :alt=" $t('colorfulDrink') "
                 loading="lazy"
               />
             </div>
             <NuxtImg format="webp"
               src="assets/our-drinks-item-6.png"
               class="w-full aspect-video"
-              alt=""
+              :alt=" $t('redDrink') "
               loading="lazy"
             />
           </div>
