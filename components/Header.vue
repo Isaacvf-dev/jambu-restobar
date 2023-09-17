@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full bg-slate-900 fixed z-20 text-white">
+  <header class="w-full bg-slate-900 fixed z-50 text-white">
     <nav
       class="max-w-7xl mx-auto px-4 py-2 md:flex md:justify-between md:items-center font-semibold"
     >

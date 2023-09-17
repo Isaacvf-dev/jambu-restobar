@@ -1,7 +1,7 @@
 <template>
-  <section id="menu_section" class="w-full flex flex-col justify-center p-6 lg:pb-20 pt-16  md:pb-10 md:pt-20 lg:pt-10 h-full md:h-screen  bg-[url('public/assets/menu-background.png')] bg-slate-950">
-    <h1 class="text-amber-600 text-2xl sm:text-3xl lg:text-4xl text-center font-semibold pt-2 pb-6 md:pb-10 lg:pt-16"> {{ $t('menuTitle') }} </h1>
-    <div id="menu-container" class="w-full sm:flex flex-row justify-evenly lg:justify-center lg:px-8 sm:max-h-[67vh] pt-4 sm:pt-6 md:pb-4">
+  <section id="menu_section" class="relative w-full flex flex-col justify-center p-6 lg:pb-20 pt-16  md:pb-10 md:pt-20 lg:pt-10 h-full md:h-screen bg-slate-950">
+    <h1 class="text-amber-600 text-2xl sm:text-3xl lg:text-4xl text-center font-semibold pt-2 pb-6 md:pb-10 lg:pt-16 z-10"> {{ $t('menuTitle') }} </h1>
+    <div id="menu-container" class="w-full sm:flex flex-row justify-evenly lg:justify-center lg:px-8 sm:max-h-[67vh] pt-4 sm:pt-6 md:pb-4 z-10">
       <div class=" flex flex-col w-full max-w-xl">
         <NuxtImg format="webp"  src="assets/menu-image-01.png" loading="lazy" class="h-52 sm:h-2/5 object-cover pb-2" :alt=" $t('greenDish') " />
         <div class="flex justify-evenly gap-2 sm:h-3/5">

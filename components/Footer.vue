@@ -1,10 +1,10 @@
 <template>
-  <section id="footer_section" class="w-full bg-slate-950 relative">
+  <section id="footer_section" class="w-full relative">
     <div
       id="footer-container"
       class="h-full py-10 md:py-20 max-w-7xl md:flex md:flex-row-reverse mx-auto justify-between"
     >
-      <div class="px-6 md:w-1/2 w-full mx-auto md:mb-1 mb-10">
+      <div class="px-6 md:w-1/2 w-full mx-auto md:mb-1 mb-10 z-[5]">
         <iframe
           id="iframe-google-maps"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12017.77884929511!2d-8.6046952!3d41.1466465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24653b30148869%3A0x22f7c9b79ae460ab!2sJambu%20Resto!5e0!3m2!1spt-BR!2spt!4v1694269251824!5m2!1spt-BR!2spt"
@@ -16,7 +16,7 @@
           title="googleMaps"
         ></iframe>
       </div>
-      <div class="text-white font-poppins px-6 flex flex-col justify-between md:text-left text-center">
+      <div class="text-white font-poppins px-6 flex flex-col justify-between md:text-left text-center z-[5]">
         <div>
           <div class="flex mb-6">
             <Logo class="md:mx-0 mx-auto" />
