@@ -6,8 +6,9 @@
     <NuxtImg
       format="webp"
       src="/assets/home-background.png"
-      :alt="$t('homeBackground')"
-      width="100vw"
+      alt="Salão do restaurante com mesas e plantas espalhadas"
+      width="2878"
+      height="2180"
       class="absolute w-full object-cover object-center z-[5]"
     />
     <div
