@@ -67,7 +67,7 @@
             target="_blank"
             v-if="isMenuVisible"
             to="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
-            class="uppercase transition duration-100 delay-75 mx-4 px-5 py-1 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm"
+            class="uppercase transition duration-100 delay-75 mx-4 px-5 py-1 text-slate-900 bg-amber-600 hover:bg-amber-500 rounded-[120px] text-sm"
             >{{ $t("reservation") }}</NuxtLink
           >
         </div>
@@ -81,7 +81,7 @@
         <NuxtLink
           to="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
           target="_blank"
-          class="uppercase transition duration-100 delay-75 px-5 lg:px-8 py-1 lg:py-2 bg-amber-600 hover:bg-amber-700 rounded-[120px] text-sm lg:text-xl"
+          class="uppercase transition duration-100 delay-75 px-5 lg:px-8 py-1 lg:py-2 text-slate-900 bg-amber-600 hover:bg-amber-500 rounded-[120px] text-sm lg:text-xl"
           >{{ $t("reservation") }}</NuxtLink
         >
       </div>
