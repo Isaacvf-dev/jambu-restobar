@@ -1,14 +1,17 @@
 <template>
   <div class="relative mr-4 lg:mr-8 ml-2">
-    <div 
-    class="flex items-center cursor-pointer" 
-    @mouseenter="toggleDropdown"  
-    @mouseleave="hideLangMenu"
+    <div
+      class="flex items-center cursor-pointer"
+      @mouseenter="toggleDropdown"
+      @mouseleave="hideLangMenu"
     >
-      <NuxtImg format="webp"
+      <NuxtImg
+        format="webp"
         :src="selectedOption?.image"
         class="h-6 w-6 rounded-full"
         alt="Language Icon"
+        width="512"
+        height="512"
       />
       <div
         v-if="isDropdownVisible"
@@ -20,12 +23,17 @@
           class="flex justify-start items-center py-3 pl-4 pr-10 cursor-pointer hover:text-white duration-500"
           @click="selectOption(option)"
         >
-          <NuxtImg format="webp"
+          <NuxtImg
+            format="webp"
             :src="option.image"
             class="h-6 w-6 rounded-full mr-3"
             alt="Language Icon"
+            width="512"
+            height="512"
           />
-          <span class="text-sm font-semibold text-right">{{ option.name }}</span>
+          <span class="text-sm font-semibold text-right">{{
+            option.name
+          }}</span>
         </div>
       </div>
     </div>
@@ -35,8 +43,7 @@
 <script setup lang="ts">
 import { ref, watch, computed } from "vue";
 import { useI18n } from "vue-i18n";
-import nuxtStorage from 'nuxt-storage';
-
+import nuxtStorage from "nuxt-storage";
 
 interface LanguageOption {
   value: string;
@@ -45,7 +52,9 @@ interface LanguageOption {
 }
 const { locale } = useI18n();
 
-const lang = ref<string>( nuxtStorage?.localStorage?.getData('jambu-bar-lang') || "pt");
+const lang = ref<string>(
+  nuxtStorage?.localStorage?.getData("jambu-bar-lang") || "pt"
+);
 
 const languageOptions: LanguageOption[] = [
   { value: "pt", name: "Português", image: "assets/portugal.png" },

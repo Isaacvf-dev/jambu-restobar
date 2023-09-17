@@ -1,10 +1,13 @@
 <template>
   <section
     id="our_place_section"
-    class="w-full p-6 lg:pb-20 pt-16 md:pb-10 md:pt-20 lg:pt-10  md:px-4 h-full md:h-screen relative overflow-hidden "
+    class="w-full p-6 lg:pb-20 pt-16 md:pb-10 md:pt-20 lg:pt-10 md:px-4 h-full md:h-screen relative overflow-hidden"
   >
-    <h1 class="text-2xl text-white sm:text-5xl text-center font-semibold pt-2 pb-6 md:pb-10 lg:pt-16">
-      {{ $t('OurPlaceTitle1') }} <span class="text-amber-600"> {{ $t('OurPlaceTitle2') }} </span>
+    <h1
+      class="text-2xl text-white sm:text-5xl text-center font-semibold pt-2 pb-6 md:pb-10 lg:pt-16"
+    >
+      {{ $t("OurPlaceTitle1") }}
+      <span class="text-amber-600"> {{ $t("OurPlaceTitle2") }} </span>
     </h1>
     <div
       id="our-place-container"
@@ -13,7 +16,7 @@
       <div class="text-center font-poppins z-10 w-full">
         <div class="md:hidden">
           <Swiper
-            :modules="[SwiperAutoplay, SwiperNavigation ]"
+            :modules="[SwiperAutoplay, SwiperNavigation]"
             :slides-per-view="1"
             :loop="true"
             :autoplay="{
@@ -22,49 +25,69 @@
             }"
           >
             <SwiperSlide>
-              <NuxtImg format="webp"
+              <NuxtImg
+                format="webp"
                 src="assets/our-place-item-1.png"
                 class="aspect-square mx-auto"
-                :alt=" $t('restaurantBar') "
+                :alt="$t('restaurantBar')"
                 loading="lazy"
+                width="374"
+                height="538"
               />
             </SwiperSlide>
             <SwiperSlide>
-              <NuxtImg format="webp"
+              <NuxtImg
+                format="webp"
                 src="assets/our-place-item-2.png"
                 class="aspect-square mx-auto"
-                :alt=" $t('restaurantTables') "
+                :alt="$t('restaurantTables')"
                 loading="lazy"
+                width="374"
+                height="538"
               />
             </SwiperSlide>
             <SwiperSlide>
-              <NuxtImg format="webp"
+              <NuxtImg
+                format="webp"
                 src="assets/our-place-item-3.png"
                 class="aspect-square mx-auto"
-                :alt=" $t('restaurantBar2') "
+                :alt="$t('restaurantBar2')"
                 loading="lazy"
+                width="374"
+                height="538"
               />
             </SwiperSlide>
           </Swiper>
         </div>
 
-        <div class="w-full md:flex md:justify-evenly max-w-6xl mx-auto hidden md:px-8">
-          <NuxtImg format="webp"
+        <div
+          class="w-full md:flex md:justify-evenly max-w-6xl mx-auto hidden md:px-8"
+        >
+          <NuxtImg
+            format="webp"
             src="assets/our-place-item-1.png"
             class="w-1/3 aspect-w-1 aspect-h-2"
-            :alt=" $t('restaurantBar') "
+            :alt="$t('restaurantBar')"
             loading="lazy"
+            width="374"
+            height="538"
           />
-          <NuxtImg format="webp"
+          <NuxtImg
+            format="webp"
             src="assets/our-place-item-2.png"
             class="w-1/3 aspect-w-1 aspect-h-2 mx-8"
-            :alt=" $t('restaurantTables') "
+            :alt="$t('restaurantTables')"
             loading="lazy"
+            width="374"
+            height="538"
           />
-          <NuxtImg format="webp"
+          <NuxtImg
+            format="webp"
             src="assets/our-place-item-3.png"
             class="w-1/3 aspect-w-1 aspect-h-2"
-            :alt=" $t('restaurantBar2') "
+            :alt="$t('restaurantBar2')"
+            width="374"
+            height="538"
             loading="lazy"
           />
         </div>
