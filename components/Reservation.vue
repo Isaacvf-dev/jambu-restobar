@@ -1,7 +1,7 @@
 <template>
   <section
     id="reservation_section"
-    class="flex items-center w-full pb-5 md:pb-10 pt-4 md:pt-6 min-h-[255px] md:min-h-[275px] relative overflow-hidden z-10"
+    class="flex items-center w-full pb-5 md:pb-10 pt-4 md:pt-6  relative overflow-hidden z-10"
   >
     <NuxtImg
       format="webp"
@@ -12,7 +12,7 @@
     />
     <div
       id="reservation-container"
-      class="flex flex-col md:flex-row items-center justify-center md:justify-evenly overflow-hidden p-8 md:p-16 z-10 relative"
+      class="flex flex-col md:flex-row items-center justify-center md:justify-evenly overflow-hidden p-8 md:p-16 z-10 mx-auto relative lg:w-full"
     >
       <div
         class="text-white text-center md:text-left font-poppins z-10 max-w-3xl"

@@ -9,7 +9,7 @@
       :alt="$t('placeBackground')"
       width="1439"
       height="1048"
-      class="w-full h-full  object-cover object-center"
+      class="w-full h-full object-cover object-center"
     />
   </section>
 </template> 
