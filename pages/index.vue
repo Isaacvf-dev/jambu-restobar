@@ -51,7 +51,7 @@
       :alt="$t('homeBackground')"
       width="1439"
       height="1444"
-      class="fixed w-full object-cover object-center z-[3]"
+      class="fixed w-full  object-cover object-center z-[3]"
     />
     <Header />
     <Home />

@@ -1,7 +1,7 @@
 <template>
   <section
     id="reservation_section"
-    class="w-full min-h-[255px] md:min-h-[275px] relative overflow-hidden z-10"
+    class="flex items-center w-full pb-5 md:pb-10 pt-4 md:pt-6 min-h-[255px] md:min-h-[275px] relative overflow-hidden z-10"
   >
     <NuxtImg
       format="webp"
@@ -18,11 +18,11 @@
         class="text-white text-center md:text-left font-poppins z-10 max-w-3xl"
       >
         <h1
-          class="text-amber-600 text-xl md:text-3xl lg:text-5xl mb-2 font-semibold"
+          class="text-amber-600 text-2xl sm:text-3xl lg:text-5xl mb-2 font-semibold"
         >
           {{ $t("reservationH1") }}
         </h1>
-        <p class="text-base md:text-lg lg:text-xl">
+        <p class="text-base sm:text-lg lg:text-xl">
           {{ $t("reservationParagraph") }}
         </p>
       </div>
@@ -30,7 +30,7 @@
         <NuxtLink
           to="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="
           target="_blank"
-          class="text-sm md:text-lg lg:text-xl ml-auto mr-auto uppercase hover:bg-amber-500 text-slate-900 font-semibold transition duration-100 delay-75 px-7 lg:px-10 py-3 lg:py-4 bg-amber-600 rounded-[120px]"
+          class="block whitespace-nowrap text-sm md:text-lg lg:text-xl ml-auto mr-auto uppercase hover:bg-amber-500 text-slate-900 font-semibold transition duration-100 delay-75 px-7 lg:px-10 py-3 lg:py-4 bg-amber-600 rounded-[120px]"
         >
           {{ $t("reservationButton") }}
         </NuxtLink>

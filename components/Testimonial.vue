@@ -1,7 +1,7 @@
 <template>
   <section
     id="testimonial_section"
-    class="w-full md:min-h-[550px] relative overflow-hidden z-[5]"
+    class="w-full md:min-h-[550px] pb-5 md:pb-10 pt-4 md:pt-6 relative overflow-hidden z-[5]"
   >
     <NuxtImg
       format="webp"
