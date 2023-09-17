@@ -1,7 +1,7 @@
 <template>
   <section
     id="our_place_section"
-    class="w-full p-6 lg:pb-20 pt-16  md:pb-10 md:pt-20 lg:pt-10  md:px-4 h-full md:h-screen  bg-[url('public/assets/menu-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden "
+    class="w-full p-6 lg:pb-20 pt-16 md:pb-10 md:pt-20 lg:pt-10  md:px-4 h-full md:h-screen relative overflow-hidden "
   >
     <h1 class="text-2xl text-white sm:text-5xl text-center font-semibold pt-2 pb-6 md:pb-10 lg:pt-16">
       {{ $t('OurPlaceTitle1') }} <span class="text-amber-600"> {{ $t('OurPlaceTitle2') }} </span>
