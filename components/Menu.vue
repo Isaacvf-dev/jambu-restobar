@@ -10,17 +10,17 @@
     </h1>
     <div
       id="menu-container"
-      class="w-full max-w-7xl lg:self-center sm:flex flex-row md:flex-col lg:flex-row justify-evenly lg:justify-center lg:px-auto pt-4 sm:pt-0 md:pb-4 z-10"
+      class="w-full max-w-7xl lg:self-center sm:flex flex-row md:flex-col lg:flex-row justify-evenly lg:justify-center lg:px-auto pt-4 sm:pt-0 lg:pt-10 md:pb-4 lg:pb-10 z-10"
     >
       <div class="flex-col w-full max-w-xl lg:max-w-3xl hidden md:flex lg:flex-1 lg:mr-20 lg:ml-auto mx-auto">
         <NuxtImg
           format="webp"
           src="assets/menu-image-01.png"
           loading="lazy"
-          class="h-52 sm:h-2/6 lg:h-1/5 object-cover pb-2"
+          class="h-52 sm:h-2/6 lg:h-80 object-cover pb-2"
           :alt="$t('greenDish')"
         />
-        <div class="flex justify-evenly gap-2 sm:h-3/5 lg:h-2/6">
+        <div class="flex justify-evenly gap-2 sm:h-3/5 lg:h-80">
           <div class="flex flex-col w-full h-2/6 sm:h-full ">
             <NuxtImg
               format="webp"
@@ -45,7 +45,7 @@
           />
         </div>
       </div>
-      <div class="lg:flex-1 md:pl-10 lg:pl-0 pb-6 md:py-0 mx-auto md:mt-8 lg:mt-0">
+      <div class="lg:flex-1 md:pl-10 lg:pl-0 pb-6 md:py-0 mx-auto md:mt-8 lg:mt-2">
         <div
           class="md:max-w-lg lg:max-w-2xl w-4/5 sm:w-fit lg:h-fill m-auto md:mr-6 lg:mr-0 flex flex-col sm:justify-evenly sm:pt-0 sm:grid sm:grid-cols-2 md:block lg:flex lg:flex-col" 
         >
