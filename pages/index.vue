@@ -44,18 +44,28 @@
     <Meta name="og:type”" content="website" />
     <Meta name="og:site_name" content="Jambu - Resto Bar" />
   </Head>
+  <div class="relative bg-slate-950">
+    <NuxtImg
+      format="webp"
+      src="/assets/menu-background.png"
+      :alt="$t('homeBackground')"
+      width="1439"
+      height="1444"
+      class="fixed w-full  object-cover object-center z-[3]"
+    />
+    <Header />
+    <Home />
+    <About />
+    <Reservation />
+    <Menu />
+    <Testimonial />
+    <OurDrinks />
+    <OurPlace />
+    <HowToFind />
+    <Place />
+    <Footer />
 
-  <Header />
-  <Home />
-  <About />
-  <Reservation />
-  <Menu />
-  <Testimonial />
-  <OurDrinks />
-  <OurPlace />
-  <HowToFind />
-  <Place />
-  <Footer />
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -63,10 +73,18 @@ useHead({
   htmlAttrs: {
     lang: "pt",
   },
-  meta: [
-    { charset: "utf-8" },
+  meta: [{ charset: "utf-8" }],
+  link: [
+    { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      href: "/apple-touch-icon.png",
+    },
+    { rel: "icon", sizes: "32x32", href: "/favicon-32x32.png" },
+    { rel: "icon", sizes: "16x16", href: "/favicon-16x16.png" },
+    { rel: "manifest", href: "/site.webmanifest" },
   ],
-  link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
 });
 </script>
 

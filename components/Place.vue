@@ -1,9 +1,15 @@
 <template>
   <section
     id="place_section"
-    class="w-full md:h-[100vh] h-[50vh] bg-[url('public/assets/place-background.png')] bg-cover bg-center bg-no-repeat bg-slate-950 relative overflow-hidden"
+    class="w-full pb-5 md:pb-10 pt-4 md:pt-6 md:h-screen z-[5] h-[50vh] relative overflow-hidden"
   >
-    <div id="place-container" class="flex items-center justify-center h-full overflow-hidden p-6">
-    </div>
+    <NuxtImg
+      format="webp"
+      src="/assets/place-background.png"
+      :alt="$t('placeBackground')"
+      width="1439"
+      height="1048"
+      class="w-full h-full object-cover object-center"
+    />
   </section>
 </template> 
