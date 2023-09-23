@@ -76,7 +76,7 @@
         <div class="mr-2 lg:mr-4"></div>
         <lang-selector />
         <div class="border-solid border-white border-l-2">
-          <span class="mx-2 lg:mx-4 text-xs lg:text-sm">+351 910 444 333</span>
+          <span class="mx-2 lg:mx-4 text-xs lg:text-sm whitespace-nowrap">+351 910 444 333</span>
         </div>
         <NuxtLink
           to="https://www.thefork.pt/restaurante/jambu-rest-bar-r805263#booking="

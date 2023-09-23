@@ -1,11 +1,11 @@
 <template>
   <section
     id="about_section"
-    class="w-full md:h-full lg:min-h-screen pb-5 md:pb-10 pt-4 md:pt-6 relative overflow-hidden"
+    class="w-full md:h-full pb-5 md:pb-10 pt-4 md:pt-6 lg:pt-10 relative overflow-hidden"
   >
     <div
       id="about-container"
-      class="md:flex items-center justify-center h-full overflow-hidden px-6 z-[5]"
+      class="md:flex items-center justify-center h-full overflow-hidden lg:pt-16 lg:pb-6 px-6 z-[5]"
     >
       <div
         class="text-white text-center font-poppins md:w-1/2 p-4 md:p-6 xl:p-20"
