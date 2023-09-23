@@ -17,22 +17,22 @@
           format="webp"
           src="assets/menu-image-01.png"
           loading="lazy"
-          class="h-52 sm:h-2/6 lg:h-80 object-cover pb-2"
+          class="h-52 sm:h-2/6 lg:h-80 object-cover w-auto lg:w-full pb-2"
           :alt="$t('greenDish')"
         />
         <div class="flex justify-evenly gap-2 sm:h-3/5 lg:h-80">
-          <div class="flex flex-col w-full h-2/6 sm:h-full ">
+          <div class="flex flex-col w-full md:w-auto lg:w-full h-2/6 sm:h-full ">
             <NuxtImg
               format="webp"
               src="assets/menu-image-02.png"
               loading="lazy"
-              class="object-center object-cover h-28 sm:h-2/4 pb-1"
+              class="object-center object-cover w-auto lg:w-full h-28 sm:h-2/4 pb-1"
               :alt="$t('breadDish')"
             />
             <NuxtImg
               src="assets/menu-image-03.png"
               loading="lazy"
-              class="object-bottom object-cover h-28 sm:h-2/4 pt-1"
+              class="object-bottom object-cover w-auto lg:w-full h-28 sm:h-2/4 pt-1"
               :alt="$t('hamgurguerDish')"
             />
           </div>
@@ -40,7 +40,7 @@
             format="webp"
             src="assets/menu-image-04.png"
             loading="lazy"
-            class="h-56 sm:h-full w-1/2 object-center object-cover"
+            class="h-56 sm:h-full w-1/2 w-auto lg:w-full object-center object-cover"
             :alt="$t('shrimpDish2')"
           />
         </div>
@@ -59,11 +59,11 @@
               :alt="$t('ribCroquetes')"
               class="w-1/2 md:absolute md:top-0 md:left-0 md:w-1/5 md:-ml-4 md:-mt-4 mx-auto md:mx-0 -mt-8"
             />
-            <h3
+            <h2
               class="text-xl text-amber-600 pb-1 text-center md:text-left font-semibold"
             >
               {{ $t("menuItemTitle1") }}
-            </h3>
+            </h2>
             <p class="text-base text-white hidden sm:block">
               {{ $t("menuItemDescription1") }}
             </p>
@@ -78,11 +78,11 @@
               :alt="$t('jambuMix')"
               class="w-1/2 md:absolute md:top-0 md:left-0 md:w-1/5 md:-ml-4 md:-mt-4 mx-auto md:mx-0 -mt-8"
             />
-            <h3
+            <h2
               class="text-xl text-amber-600 pb-1 text-center md:text-left font-semibold"
             >
               {{ $t("menuItemTitle2") }}
-            </h3>
+            </h2>
             <p class="text-base text-white hidden sm:block">
               {{ $t("menuItemDescription2") }}
             </p>
@@ -97,11 +97,11 @@
               :alt="$t('acarajePlatter')"
               class="w-1/2 md:absolute md:top-0 md:left-0 md:w-1/5 md:-ml-4 md:-mt-4 mx-auto md:mx-0 -mt-8"
             />
-            <h3
+            <h2
               class="text-xl text-amber-600 pb-1 text-center md:text-left font-semibold"
             >
               {{ $t("menuItemTitle3") }}
-            </h3>
+            </h2>
             <p class="text-base text-white hidden sm:block">
               {{ $t("menuItemDescription3") }}
             </p>
@@ -116,11 +116,11 @@
               :alt="$t('northeasternDish')"
               class="w-1/2 md:absolute md:top-0 md:left-0 md:w-1/5 md:-ml-4 md:-mt-4 mx-auto md:mx-0 -mt-8"
             />
-            <h3
+            <h2
               class="text-xl text-amber-600 pb-1 text-center md:text-left font-semibold"
             >
               {{ $t("menuItemTitle4") }}
-            </h3>
+            </h2>
             <p class="text-base text-white hidden sm:block">
               {{ $t("menuItemDescription4") }}
             </p>
