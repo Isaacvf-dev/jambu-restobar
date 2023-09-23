@@ -1,7 +1,7 @@
 <template>
   <section
     id="about_section"
-    class="w-full md:h-full lg:h-screen pb-5 md:pb-10 pt-4 md:pt-6 relative overflow-hidden"
+    class="w-full md:h-full lg:min-h-screen pb-5 md:pb-10 pt-4 md:pt-6 relative overflow-hidden"
   >
     <div
       id="about-container"
