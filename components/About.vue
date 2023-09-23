@@ -28,9 +28,9 @@
           format="webp"
           src="assets/about-item-1.png"
           :alt="$t('redDrink')"
-          class="mx-auto"
-          width="239"
-          height="269"
+          class="mx-auto w-60 h-auto"
+          
+          loading="lazy"
         />
         <NuxtImg
           format="webp"
@@ -39,6 +39,7 @@
           class="mt-4 mx-auto"
           width="239"
           height="269"
+          loading="lazy"
         />
         <NuxtImg
           format="webp"
@@ -47,6 +48,7 @@
           class="mx-auto"
           width="239"
           height="269"
+          loading="lazy"
         />
         <NuxtImg
           format="webp"
@@ -55,6 +57,7 @@
           class="mt-4 mx-auto"
           width="239"
           height="269"
+          loading="lazy"
         />
         <NuxtImg
           format="webp"
@@ -63,6 +66,7 @@
           class="xl:block hidden"
           width="239"
           height="269"
+          loading="lazy"
         />
         <NuxtImg
           format="webp"
@@ -71,6 +75,7 @@
           class="mt-4 xl:block hidden"
           width="239"
           height="269"
+          loading="lazy"
         />
       </div>
     </div>

@@ -6,6 +6,7 @@ export default {
   reservation: 'Reservations',  
   aboutTitle1: 'Philosophy',
   aboutTitle2: 'Cuisine',
+  homeBackground: 'Restaurant lounge with tables and scattered plants',
   aboutParagraph1: 'Welcome to the flavorful meeting of culinary cultures in the heart of Porto! In our restaurant, each dish is a unique sensory journey where traditional ingredients and contemporary inspirations harmonize. If you seek an authentic and passionate gastronomic experience, this is your destination.',
   aboutParagraph2: 'Our dedication to quality, combined with a warm and relaxed atmosphere, will make you feel at home from the very first moment. Join us and celebrate the fusion of flavors and cultures in a culinary experience that will captivate your senses and leave you eager to return. Come and enjoy our passion for flavor and make every moment memorable.',
   reservationH1: 'Celebrate and have fun at\none of the best restaurants',
