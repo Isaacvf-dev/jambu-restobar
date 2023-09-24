@@ -14,11 +14,13 @@
         <div class="w-full flex max-w-7xl mx-auto justify-center ">
           <video class="w-1/4 aspect-w-1 aspect-h-1 mx-8 md:block hidden" controls autoplay muted>
             <source src="/assets/video1.mp4" poster="assets/poster-video-1.png" type="video/mp4">
+            <track kind="captions">
             Your browser does not support the video tag.
           </video>
 
           <video class="md:w-1/4 w-full md:aspect-w-1 md:aspect-h-2 mx-8" style="max-height: 70vw" controls autoplay muted>
             <source src="/assets/video2.mp4" poster="assets/poster-video-2.png" type="video/mp4">
+            <track kind="captions">
             Your browser does not support the video tag.
           </video>
         </div>

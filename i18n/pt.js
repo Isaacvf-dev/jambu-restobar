@@ -6,6 +6,7 @@ export default {
   reservation: 'Reservas',
   aboutTitle1: 'Filosofia',
   aboutTitle2: 'Cozinha',
+  homeBackground: 'Salão do restaurante com mesas e plantas espalhadas',
   aboutParagraph1: 'Bem-vindo ao saboroso encontro de culturas culinárias no coração do Porto! No nosso restaurante, cada prato é uma viagem sensorial única, onde ingredientes tradicionais e inspirações contemporâneas se fundem em harmonia. Se você busca uma experiência gastronômica autêntica e apaixonante, aqui é o seu destino.',
   aboutParagraph2: 'Nossa dedicação à qualidade, aliada a um ambiente acolhedor e descontraído, fará você se sentir em casa desde o primeiro momento. Junte-se a nós e celebre o encontro de paladares e culturas em uma experiência culinária que irá cativar seus sentidos e deixar você ansioso para voltar. Venha desfrutar da nossa paixão pelo sabor e tornar cada momento memorável.',
   reservationH1: 'Comemore e divirta-se em\num dos melhores restaurantes',

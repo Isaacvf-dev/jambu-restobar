@@ -7,7 +7,7 @@
       format="webp"
       src="/assets/testimonial-background.png"
       alt="Drink amarelo com especiarias"
-      width="1439"
+      sizes="sm:300px md:1440px lg:2048px"
       class="absolute h-full w-full object-cover object-center z-0"
     />
     <div

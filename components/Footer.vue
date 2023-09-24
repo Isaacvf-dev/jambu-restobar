@@ -44,8 +44,8 @@
           </div>
           <div>
             <NuxtLink to="https://www.livroreclamacoes.pt/Inicio/" target="_blank" aria-label="Livro de reclamações"
-              ><NuxtImg format="webp" :src="  $t('FooterComplainBook')  " alt="Livro de Reclamações" width="200" loading="lazy"
-               class="md:mx-0 mx-auto"
+              ><NuxtImg format="webp" :src="  $t('FooterComplainBook')  " alt="Livro de Reclamações" loading="lazy"
+               class="md:mx-0 mx-auto w-48 h-full"
             /></NuxtLink>
           </div>
         </div>
