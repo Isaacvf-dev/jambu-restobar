@@ -6,6 +6,7 @@ export default {
   reservation: 'Reservas',
   aboutTitle1: 'Filosofía',
   aboutTitle2: 'Cocina',
+  homeBackground: 'Sala de restaurante con mesas y plantas dispersas',
   aboutParagraph1: '¡Bienvenidos al encuentro sabroso de culturas culinarias en el corazón de Oporto! En nuestro restaurante, cada plato es un viaje sensorial único, donde ingredientes tradicionales e inspiraciones contemporáneas se fusionan en armonía. Si buscas una experiencia gastronómica auténtica y apasionante, este es tu destino.',
   aboutParagraph2: 'Nuestra dedicación a la calidad, combinada con un ambiente cálido y relajado, te hará sentir como en casa desde el primer momento. Únete a nosotros y celebra la fusión de sabores y culturas en una experiencia culinaria que cautivará tus sentidos y te dejará ansioso por volver. Ven y disfruta de nuestra pasión por el sabor y haz que cada momento sea memorable.',
   reservationH1: 'Celebra y diviértete en\nuno de los mejores restaurantes',

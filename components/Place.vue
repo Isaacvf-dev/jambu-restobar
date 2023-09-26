@@ -6,9 +6,8 @@
     <NuxtImg
       format="webp"
       src="/assets/place-background.png"
-      :alt="$t('placeBackground')"
-      width="1439"
-      height="1048"
+      :alt="$t('placeBackground')"      
+      loading="lazy"
       class="w-full h-full object-cover object-center"
     />
   </section>
